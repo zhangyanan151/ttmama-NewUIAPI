@@ -30,3 +30,170 @@
 * 以下参数仅限于DOM传参，js传参请到插件官网查看。
 * 不在form中的字段不会验证。
 
+
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>名称</th>
+                    <th>类型</th>
+                    <th>描述</th>
+                    <th>示例</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    | data-rule |
+                    | string |
+                    | [必选] 定义该字段的规则集 |
+                    | data-rule="required; password" |
+                </tr>
+                <tr>
+                    | data-rule-* |
+                    | string |
+                    | [可选] 定义临时规则 |
+                    | data-rule-password="[/^\d{6}$/, '请填写6位数字']" |
+                </tr>
+                <tr>
+                    | data-msg-* |
+                    | string |
+                    | [可选] 更改了默认规则的消息 |
+                    | data-msg-required="请填写密码" |
+                </tr>
+                <tr>
+                    | data-tip |
+                    | string |
+                    | [可选] 当元素获得焦点时，显示友好信息 |
+                    | data-tip="请输入用户名" |
+                </tr>
+                <tr>
+                    | data-ok |
+                    | string |
+                    | [可选] 字段验证成功后显示的消息 |
+                    | data-ok="用户名可用" |
+                </tr>
+                <tr>
+                    | data-target |
+                    | selector |
+                    | [可选] 如果定义，将决定消息最终显示位置，如果selector是字段，则消息显示在字段的消息位置，否则显示在selector指定容器内。 |
+                    | data-target="#username" |
+                </tr>
+                <tr>
+                    | novalidate |
+                    | null |
+                    | [可选] 无值参数，指定该字段不需要验证。 |
+                    |  |
+                </tr>
+                <tr>
+                    | notimely |
+                    | boolean |
+                    | [可选] 值为true时，指定该字段不需要适时验证 `插件官网说是无值参数，经过测试不设为true则无效`。 |
+                    | notimely="true" |
+                </tr>
+            </tbody>
+        </table>
+        <h4>验证规则</h4>
+        <blockquote class="point">
+            <p><strong>如何验证：</strong>为字段添加属性`data-rule="规则"`即可，多条规则以`;`分隔。<br>
+                `更多规则：`请查看插件官网：<a href="http://niceue.com/validator/demo/" target="_blank">http://niceue.com/validator/demo/</a> 或查看代码文件： `/BJUI/js/bjui-regional.zh-CN.js`
+            </p>
+        </blockquote>
+        <form>
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>规则</th>
+                    <th>描述</th>
+                    <th>示例</th>
+                    <th>示例代码</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    | required |
+                    | 必填项 |
+                    | <input type="text" name="doc-validate-r1" size="10" data-rule="required"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate1" data-rule="required"></pre> |
+                </tr>
+                <tr>
+                    | 显示替换名:required |
+                    | 显示替换名 + 必填项提示消息 |
+                    | <input type="text" name="doc-validate-r2" size="10" data-rule="用户名:required"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate2" data-rule="用户名:required;"></pre> |
+                </tr>
+                <tr>
+                    | match[name] |
+                    | 两个字段匹配 |
+                    | <input type="text" name="doc-validate-p1" size="5" data-rule="密码:required"><input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)"> |
+                    | <pre class="brush:html">
+                        <input type="text" name="doc-validate-p1" size="5" data-rule="密码:required">
+                        <input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)">
+                    </pre> |
+                </tr>
+                <tr>
+                    | digits |
+                    | 整数 |
+                    | <input type="text" name="doc-validate-d1" size="10" data-rule="digits"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></pre> |
+                </tr>
+                <tr>
+                    | number |
+                    | 数字 |
+                    | <input type="text" name="doc-validate-d2" size="10" data-rule="number"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-d2" size="10" data-rule="number"></pre> |
+                </tr>
+                <tr>
+                    | mobile |
+                    | 手机号 |
+                    | <input type="text" name="doc-validate-m1" size="10" data-rule="mobile"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></pre> |
+                </tr>
+                <tr>
+                    | email |
+                    | 邮箱 |
+                    | <input type="text" name="doc-validate-m2" size="10" data-rule="email"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-m2" size="10" data-rule="email"></pre> |
+                </tr>
+                <tr>
+                    | date |
+                    | 日期 |
+                    | <input type="text" name="doc-validate-d3" size="10" data-rule="date"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-d3" size="10" data-rule="date"></pre> |
+                </tr>
+                <tr>
+                    | datetime |
+                    | 日期时间 |
+                    | <input type="text" name="doc-validate-d4" size="10" data-rule="datetime"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></pre> |
+                </tr>
+                <tr>
+                    | url |
+                    | 网址 |
+                    | <input type="text" name="doc-validate-u" size="10" data-rule="url"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-u" size="10" data-rule="url"></pre> |
+                </tr>
+                <tr>
+                    | ID_card |
+                    | 身份证 |
+                    | <input type="text" name="doc-validate-id" size="10" data-rule="ID_card"> |
+                    | <pre class="brush:html"><input type="text" name="doc-validate-id" size="10" data-rule="ID_card"></pre> |
+                </tr>
+                <tr>
+                    | checked |
+                    | 复选\单选框 |
+                    | <input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框"><input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框"> |
+                    | <pre class="brush:html">
+                        <input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框">
+                        <input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框">
+                    </pre> |
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </div>
+</div>
+<div class="bjui-pageFooter">
+    <ul>
+        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
+    </ul>
+</div>
+
