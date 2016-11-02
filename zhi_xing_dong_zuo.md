@@ -13,7 +13,8 @@ jQuery API:
 $(selector).bjuiajax('doAjax', options)
 ```
 * **doExport(适用于 `导出`)**：
-*DOM示例代码：*
+
+  *DOM示例代码：*
 ```html
 <a type="button" class="btn btn-default" href="book1.xlsx" data-toggle="doexport" data-confirm-msg="确定要导出吗？">导出数据</a>
 ```
@@ -36,9 +37,10 @@ $(selector).bjuiajax('doAjaxChecked', options)
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doexportchecked" data-confirm-msg="确定要导出选中项吗？">批量导出</a>
  ```
 jQuery API:
-```javascript
+```js
 $(selector).bjuiajax('doExportChecked', options)
 ```
+
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
