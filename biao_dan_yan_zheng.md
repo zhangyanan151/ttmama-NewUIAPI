@@ -58,24 +58,4 @@
 | datetime | 日期时间 | <code><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></code> |
 | url | 网址 | <code><input type="text" name="doc-validate-u" size="10" data-rule="url"></code> |
 | ID_card | 身份证 | <code><input type="text" name="doc-validate-id" size="10" data-rule="ID_card"></code> |
-                </tr>
-                <tr>
-                    | checked |
-                    | 复选\单选框 |
-                    | <input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框"><input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框"> |
-                    | <pre class="brush:html">
-                        <input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框">
-                        <input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框">
-                    </pre> |
-                </tr>
-            </tbody>
-        </table>
-        </form>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+| checked  | 复选\单选框 | <code><input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框"></code><br /><code><input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框"></code> |
