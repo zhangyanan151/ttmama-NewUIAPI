@@ -1,6 +1,6 @@
 ### Highcharts图表说明
 ***
-本节主要介绍框架的Highcharts图形报表功能（由 <a href="" target="_blank">[小策一喋](http://www.topjui.com)</a> 整合图表库Highcharts），Demo演示只展示了3种常用的图形报表：3D饼图、折线图及3D柱状图，其它图表类型请根据Hightcharts图表库使用方法生成对应的json数据格式即可，更多图表类型及参数请查看[Highcharts中文网](http://www.hcharts.cn)
+本节主要介绍框架的Highcharts图形报表功能（由 [小策一喋](http://www.topjui.com)</a> 整合图表库Highcharts），Demo演示只展示了3种常用的图形报表：3D饼图、折线图及3D柱状图，其它图表类型请根据Hightcharts图表库使用方法生成对应的json数据格式即可，更多图表类型及参数请查看[Highcharts中文网](http://www.hcharts.cn)
         </blockquote>
         <blockquote class="point">
             <code>界面调用：</code>在HTML代码中加入代码：<br>
