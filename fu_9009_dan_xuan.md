@@ -1,14 +1,9 @@
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">第三方插件：iCheck —— 美化复选框、单选框</h3>
-        <blockquote>
-            <p>本节主要介绍表美化复选框、单选框插件 - iCheck，插件地址：<a href="http://www.bootcss.com/p/icheck/" target="_blank">http://www.bootcss.com/p/icheck/</a>。</p>
-        </blockquote>
-        <h4>初始化</h4>
-        <ul>
-            <li>Data属性：checkbox或radio添加属性`data-toggle="icheck"`后即可触发，属性`data-label`可以设置显示标签，如果有ID，则点击标签可勾选。<br>
-                <br><span class="label label-default">DOM示例：</span>　<input type="checkbox" name="doc-check1" id="doc-check1" data-toggle="icheck" data-label="我是一个复选框"> <input type="radio" name="doc-radio1" id="doc-radio1" data-toggle="icheck" data-label="单选1"> <input type="radio" name="doc-radio1" id="doc-radio2" data-toggle="icheck" data-label="单选2"><br>
-                <p>示例代码：</p>
+### 第三方插件：iCheck —— 美化复选框、单选框
+***
+本节主要介绍表美化复选框、单选框插件 - iCheck，插件地址：[http://www.bootcss.com/p/icheck/](http://www.bootcss.com/p/icheck/)。
+#### 初始化
+* Data属性：checkbox或radio添加属性`data-toggle="icheck"`后即可触发，属性`data-label`可以设置显示标签，如果有ID，则点击标签可勾选。<br>
+**`DOM示例：代码：`**
                 <pre class="brush: html">
                     <input type="checkbox" name="doc-check1" id="doc-check1" data-toggle="icheck" data-label="我是一个复选框">
                     <input type="radio" name="doc-radio1" id="doc-radio1" data-toggle="icheck" data-label="单选1">
