@@ -12,23 +12,7 @@
 * jQuery API：[http://www.bootcss.com/p/icheck/](http://www.bootcss.com/p/icheck/)
 #### 状态改变事件
 更多事件及方法见插件官网
-        </blockquote>
-        　　<span class="label label-default">示例：</span>　　<input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
-        <input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
-        <input type="checkbox" name="doc-check-t" id="doc-check-t3" value="3000" data-toggle="icheck" data-label="3000">
-        <input type="checkbox" name="doc-check-t" id="doc-check-t4" value="4000" data-toggle="icheck" data-label="4000">
-        <input type="checkbox" name="doc-check-t" id="doc-check-t5" value="5000" data-toggle="icheck" data-label="5000">
-        <script type="text/javascript">
-            $('input[name="doc-check-t"]').on('ifChanged', function(e) {
-                var checked = $(this).is(':checked'), val = $(this).val()
-                
-                if (checked)
-                    $(this).alertmsg('info', '你选择了'+ val)
-                else
-                    $(this).alertmsg('info', '你取消了'+ val)
-            })
-        </script>
-        <p>示例代码：</p>
+**`示例代码：`**
         <pre class="brush: js; html-script: true">
             <script type="text/javascript">
                 $('input[name="doc-check-t"]').on('ifChanged', function(e) {
