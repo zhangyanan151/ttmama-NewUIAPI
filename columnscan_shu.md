@@ -22,12 +22,7 @@
 | render | function(value) | null | [可选] *`F`* 将列数据渲染成其他样式，方法参数value为datagrid数据提供的原始值。不显示空值示例：`function(value){return !value `&#124;&#124;`  value == 'null' ? '' : value}`，datagrid提供基于items的默认渲染：`$.datagrid.renderItem` |
 | pattern | string | null | [可选] *`F`* 配合type='date'使用，设置日期格式。示例：`yyyy-MM-dd HH:mm` |
 | calc | string | null | [可选] *`F`* 列统计，可选(count、sum、avg、min、max)。 |
-                </tr>
-                <tr>
-                    | calcTit |
-                    | string |
-                    | null |
-                    | [可选] <span class="badge"><i>F</i></span> 列统计说明，对应calc(总数、合计、平均、最小、最大)。 |
+| calcTit | string | null | [可选] *`F`* 列统计说明，对应calc(总数、合计、平均、最小、最大)。 |
                 </tr>
                 <tr>
                     | calcDecimal |
