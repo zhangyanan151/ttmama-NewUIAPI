@@ -4,24 +4,30 @@
 * Data属性：DOM添加属性`data-toggle="navtab"`后，单击触发。
 
   *DOM示例1：*
-      <a href="mytab.html?d=1" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-title="我的业务页面">打开navtab</a>
+  ```html
+<a href="mytab.html?d=1" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-title="我的业务页面">打开navtab</a>
+```
   *DOM示例2：*
-      <button type="button" class="btn-green" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-url="doc/navtab/mytab.html?d=2" data-title="我的业务页面">打开navtab</button>
+  ```html
+<button type="button" class="btn-green" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-url="doc/navtab/mytab.html?d=2" data-title="我的业务页面">打开navtab</button>
+```
   *DOM示例3(参数集合)：*
-      <button type="button" class="btn-green" data-toggle="navtab" data-options="{id:'mynavtab', reloadWarn:'已打开业务页面，确认将重新载入?', url:'doc/navtab/mytab.html?d=5', title:'我的业务页面(参数集合写法)'}">打开navtab(参数集合)</button>
+  ```html
+<button type="button" class="btn-green" data-toggle="navtab" data-options="{id:'mynavtab', reloadWarn:'已打开业务页面，确认将重新载入?', url:'doc/navtab/mytab.html?d=5', title:'我的业务页面(参数集合写法)'}">打开navtab(参数集合)</button>
+```
   *其他示例[回调函数]：*
-      <script type="text/javascript">
-          function doc_navtab_beforeClose($navtab) {
-              var code = $navtab.find('#doc-mytab-code').val()
+```js
+function doc_navtab_beforeClose($navtab) {
+    var code = $navtab.find('#doc-mytab-code').val()
 
-              if (code) return true
-              $navtab.alertmsg('error', '关闭navtab前请先填入你的工号。')
-              return false
-          }
-          function doc_navtab_onClose() {
-              $(this).alertmsg('info', '你刚刚关闭了一个navtab。')
-          }
-      </script>
+    if (code) return true
+    $navtab.alertmsg('error', '关闭navtab前请先填入你的工号。')
+    return false
+}
+function doc_navtab_onClose() {
+    $(this).alertmsg('info', '你刚刚关闭了一个navtab。')
+}
+```
       <button type="button" class="btn-green" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-url="doc/navtab/mytab.html?d=3" data-title="navtab回调函数示例" data-before-close="doc_navtab_beforeClose" data-on-close="doc_navtab_onClose">打开navtab</button>
 * jQuery API：
 
