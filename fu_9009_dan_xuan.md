@@ -11,7 +11,7 @@
 ```
 * jQuery API：[http://www.bootcss.com/p/icheck/](http://www.bootcss.com/p/icheck/)
 #### 状态改变事件
-*更多事件及方法见插件官网*
+更多事件及方法见插件官网
         </blockquote>
         　　<span class="label label-default">示例：</span>　　<input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
         <input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
