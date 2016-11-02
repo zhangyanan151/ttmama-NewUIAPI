@@ -23,10 +23,7 @@
 | afterUpload | function(url) | null | [可选] 上传文件后执行的回调函数。 |
 | afterSelectFile | function(url) | null | [可选] 从图片空间选择文件后执行的回调函数。 |
 | confirmSelect | function(url) | null | [可选] `自定义`用于上传(fillDescAfterUploadImage=true时生效)或选择图片并插入成功后的回调函数。 |
-| htmlTags | object | :[^本表底部查看2] | [可选] 指定要保留的HTML标记和属性，官方版见：<a href="http://kindeditor.net/docs/option.html#htmltags" target="_blank">http://kindeditor.net/docs/option.html#htmltags</a>。 |
-                </tr>
-            </tbody>
-        </table>
+| htmlTags | object | :[^本表底部查看2] | [可选] 指定要保留的HTML标记和属性，官方版见：[http://kindeditor.net/docs/option.html#htmltags](http://kindeditor.net/docs/option.html#htmltags)。 |
         [^本表底部查看1]:
         ```js
         [
