@@ -33,9 +33,7 @@
 | 名称 | 类型 | 描述 | 示例 |
 | -- | -- | -- | -- |
 | data-rule | string | [必选] 定义该字段的规则集 | data-rule="required; password" |
-                </tr>
-                <tr>
-                    | data-rule-* |
+| data-rule-* |
                     | string |
                     | [可选] 定义临时规则 |
                     | data-rule-password="[/^\d{6}$/, '请填写6位数字']" |
