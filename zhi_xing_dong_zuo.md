@@ -19,7 +19,7 @@ $(selector).bjuiajax('doAjax', options)
 <a type="button" class="btn btn-default" href="book1.xlsx" data-toggle="doexport" data-confirm-msg="确定要导出吗？">导出数据</a>
 ```
 jQuery API:
-```javascript
+```js
 $(selector).bjuiajax('doExport', options)
 ```
 * **doAjaxChecked(适用于 `选中项删除` 等)**：
