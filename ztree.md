@@ -2,14 +2,15 @@
 ***
 本节主要介绍jQuery树插件 - zTree，插件地址：[http://www.ztree.me/](http://www.ztree.me/)。
 #### 初始化
-**`DOM示例1：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，data属性设置要展示的JSON数据及其他参数。<br>
-                <p>示例代码：</p>
-                <pre class="brush: html">
-                    <ul id="ztree-test-demo1" class="ztree" data-toggle="ztree" data-nodes="[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]"></ul>
-                </pre>
-            </li>
-            <li><span class="label label-default">DOM示例2：</span>ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，然后使用集合属性`data-options`定义JSON数据及其他参数。<br>
-                <p>示例代码：</p>
+**`DOM示例1：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，data属性设置要展示的JSON数据及其他参数。
+
+*示例代码：*
+```html
+<ul id="ztree-test-demo1" class="ztree" data-toggle="ztree" data-nodes="[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]"></ul>
+```
+**`DOM示例2：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，然后使用集合属性`data-options`定义JSON数据及其他参数。
+
+*示例代码：*
                 <pre class="brush: html">
                     <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]}"></ul>
                 </pre>
