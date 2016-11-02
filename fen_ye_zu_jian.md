@@ -7,18 +7,18 @@
 >  
   分页组件不包含调整页大小参数，如需要调整页大小，需要如下代码：
   ```html
-  <div class="pages">
-    <span>每页&nbsp;</span>
-      <div class="selectPagesize">
-        <select data-toggle="selectpicker" data-toggle-change="changepagesize">
-            <option value="5">5</option>
-            <option value="30">30</option>
-            <option value="60">60</option>
-            <option value="100">100</option>
-        </select>
-      </div>
-    <span>&nbsp;条，共 10 条</span>
-  </div>
+<div class="pages">
+  <span>每页&nbsp;</span>
+    <div class="selectPagesize">
+      <select data-toggle="selectpicker" data-toggle-change="changepagesize">
+          <option value="5">5</option>
+          <option value="30">30</option>
+          <option value="60">60</option>
+          <option value="100">100</option>
+      </select>
+    </div>
+  <span>&nbsp;条，共 10 条</span>
+</div>
   ```
   
 #### 初始化
