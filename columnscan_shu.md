@@ -32,7 +32,7 @@
         <ul class="nav nav-tabs" role="tablist" style="margin:0;">
             <li class="active"><a href="#datagrid-columns-demo1" role="tab" data-toggle="tab"></a></li>
             <li><a href="#datagrid-columns-demo2" role="tab" data-toggle="tab"></a></li>
-            <li><a href="#datagrid-columns-demo3" role="tab" data-toggle="tab">HTML简单表头</a></li>
+            <li><a href="#datagrid-columns-demo3" role="tab" data-toggle="tab">HTML简
             <li><a href="#datagrid-columns-demo4" role="tab" data-toggle="tab">HTML多表头</a></li>
         </ul>
 * 简单列模型
@@ -108,23 +108,27 @@
       }
   ]
 ```
+* HTML简单表头
+```js
+<thead>
+    <tr>
+        <th data-options="{
+            name:'operation',
+            items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
+            render: $.datagrid.renderItem,
+            type:'select'}">类型</th>
+        <th data-options="{name:'name'}">姓名</th>
+        <th data-options="{name:'sex', items: [{'true':'男'}, {'false':'女'}],
+            render: $.datagrid.renderItem, type:'select'}">性别</th>
+    </tr>
+</thead>
+```
                     
                 </pre>
             </div>
             <div class="tab-pane fade" id="datagrid-columns-demo3">
                 <pre class="brush: html">
-                    <thead>
-                        <tr>
-                            <th data-options="{
-                                name:'operation',
-                                items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
-                                render: $.datagrid.renderItem,
-                                type:'select'}">类型</th>
-                            <th data-options="{name:'name'}">姓名</th>
-                            <th data-options="{name:'sex', items: [{'true':'男'}, {'false':'女'}],
-                                render: $.datagrid.renderItem, type:'select'}">性别</th>
-                        </tr>
-                    </thead>
+                    
                 </pre>
             </div>
             <div class="tab-pane fade" id="datagrid-columns-demo4">
