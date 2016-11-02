@@ -1,8 +1,6 @@
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">ECharts图表说明</h3>
-        <blockquote>
-        <p>本节主要介绍框架的ECharts图形报表功能（由 <a href="http://www.topjui.com" target="_blank">小策一喋</a> 整合图表库ECharts），Demo演示只展示了3种常用的图形报表：饼图、柱状/拆线图及地图，其它图表类型请根据ECharts图表库使用方法生成对应的json数据格式即可，更多图表类型及参数请查看<a href="http://echarts.baidu.com" target="_blank">ECharts官网</a></p>
+### <ECharts图表说明
+***
+本节主要介绍框架的ECharts图形报表功能（由 [小策一喋](http://www.topjui.com) 整合图表库ECharts），Demo演示只展示了3种常用的图形报表：饼图、柱状/拆线图及地图，其它图表类型请根据ECharts图表库使用方法生成对应的json数据格式即可，更多图表类型及参数请查看<a href="http://echarts.baidu.com" target="_blank">ECharts官网</a></p>
         </blockquote>
         <blockquote class="point">
             `界面调用：`在HTML代码中加入代码：<br>
