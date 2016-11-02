@@ -79,7 +79,7 @@ $(selector).tabledit('add', target, num)
 | num | int | 1 | [可选] 每次添加的行数。 |
 
 
-<span id="jump"></span>
+<span id="jump">777</span>
  ```js
 function(json) {
     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
