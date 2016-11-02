@@ -11,7 +11,7 @@
 ```
 * jQuery API：`options为空时，默认初始化为当前日期`
 
-```javascript
+```js
 $(input).datepicker(options)
 ```
 #### 参数（options）
@@ -31,7 +31,7 @@ $(input).datepicker(options)
 | -- | -- | -- |
 | afterchange.bjui.datepicker | 日期选择后的事件 | 监听该事件，可以在选定某个日期后进行相关操作。 |
 * 这样监听datepicker的事件：`mydate - selector`表示触发日期选择的input选择器
-```javascript
+```js
 $('mydate - selector').on('afterchange.bjui.datepicker', function(e, data) {
     var mydate = data.value
 
