@@ -15,12 +15,7 @@
 | type | string | string | [可选] *`F`* 数据类型(string、boolean、select、textarea、date、lookup、spinner)。 |
 | align | string | left | [可选] 对齐方式(left、center、right)。 |
 | add | boolean | true | [可选] *`F`* 允许该列添加数据。 |
-                </tr>
-                <tr>
-                    | edit |
-                    | boolean |
-                    | true |
-                    | [可选] <span class="badge"><i>F</i></span> 允许该列编辑数据。 |
+| edit | boolean | true | [可选] *`F<`* 允许该列编辑数据。 |
                 </tr>
                 <tr>
                     | attrs |
