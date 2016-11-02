@@ -59,7 +59,10 @@
 | beforeDelete | function | null | [可选] 带返回值方法，删除数据前调用，返回true继续删除，返回false取消删除。 |
 | afterSave | function($trs, datas) | null | [可选] 保存成功后执行方法，参数$trs为保存行(jQuery 对象)，datas为保存行对应数据(JSON Array)。 |
 | afterDelete | function | null | [可选] 删除成功后执行方法。 |
-        <h4>方法</h4>
+#### 方法
+
+| 方法名 | 参数类型 | 参数说明 | 描述 |
+| -- | -- | -- | -- |
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
