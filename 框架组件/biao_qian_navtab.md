@@ -28,16 +28,20 @@ function doc_navtab_onClose() {
     $(this).alertmsg('info', '你刚刚关闭了一个navtab。')
 }
 ```
-      <button type="button" class="btn-green" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-url="doc/navtab/mytab.html?d=3" data-title="navtab回调函数示例" data-before-close="doc_navtab_beforeClose" data-on-close="doc_navtab_onClose">打开navtab</button>
+```html
+<button type="button" class="btn-green" data-toggle="navtab" data-id="mynavtab" data-reload-warn="已打开业务页面，确认将重新载入?" data-url="doc/navtab/mytab.html?d=3" data-title="navtab回调函数示例" data-before-close="doc_navtab_beforeClose" data-on-close="doc_navtab_onClose">打开navtab</button>
+```
 * jQuery API：
 
   *jQuery示例：* 完整代码如下
-      <script type="text/javascript">
-        function openMytab(obj) {
-            $(obj).navtab({id:'mynavtab', url:'doc/navtab/mytab.html', title:'我的业务页面'});
-        }
-      </script>
-      <button type="button" class="btn-default" onclick="openMytab(this)">打开navtab</button>
+```js
+function openMytab(obj) {
+    $(obj).navtab({id:'mynavtab', url:'doc/navtab/mytab.html', title:'我的业务页面'});
+}
+```
+```html
+<button type="button" class="btn-default" onclick="openMytab(this)">打开navtab</button>
+```
 * jQuery API代码：
       $(selector).navtab(options)
 **说明**
