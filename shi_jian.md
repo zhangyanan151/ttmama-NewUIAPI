@@ -29,9 +29,7 @@ $(selector).trigger('Event name')
 
 **说明:**可以多次监听某一事件，jQuery会依次处理，本例触发bjui.initUI事件时会先触发框架的监听事件(`bjui-plugins.js: 为文本框添加Class[form-control]`)，再触发自定义的监听事件(`红色边框`)。
 
-`事件示例：`
-
-*示例完整代码：*
+`事件示例完整代码：`
 ```js
 var $doc_div = $('&lt;div class="doc-eventbox" style="display:inline-block; margin-left:10px;"><input type="text"></div>')
 $doc_div.on('bjui.initUI', function() {
