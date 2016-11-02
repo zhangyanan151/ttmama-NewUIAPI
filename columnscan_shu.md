@@ -5,6 +5,8 @@
 * 用HTML表头初始化为datagrid的，通过th的`data-options`属性定义columns对象参数。
 * 凡是含有*`F`*标记的参数对于多表头均无效。
 * 凡是含有*`D<`*标记的参数对于HTML表头均无效。
+
+
         </blockquote>
         <table class="table table-bordered table-striped table-hover">
             <thead>
