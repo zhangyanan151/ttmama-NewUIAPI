@@ -23,12 +23,7 @@
 | pattern | string | null | [可选] *`F`* 配合type='date'使用，设置日期格式。示例：`yyyy-MM-dd HH:mm` |
 | calc | string | null | [可选] *`F`* 列统计，可选(count、sum、avg、min、max)。 |
 | calcTit | string | null | [可选] *`F`* 列统计说明，对应calc(总数、合计、平均、最小、最大)。 |
-                </tr>
-                <tr>
-                    | calcDecimal |
-                    | int |
-                    | 2 |
-                    | [可选] <span class="badge"><i>F</i></span> 列统计数据保留小数点位数。 |
+| calcDecimal | int | 2 | [可选] *`F`* 列统计数据保留小数点位数。 |
                 </tr>
                 <tr>
                     | hide |
