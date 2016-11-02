@@ -33,16 +33,7 @@ function doc_filedownload1(a) {
     })
 }
 ```
-                    <!-- url 返回JSON信息，处理返回信息，不下载文件 -->
-                    <a href="ajaxDoneErr.html" onclick="doc_filedownload1(this); return false;"&gt;点我下载一个文件</a&gt;
-                </pre>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+```html
+<!-- url 返回JSON信息，处理返回信息，不下载文件 -->
+<a href="ajaxDoneErr.html" onclick="doc_filedownload1(this); return false;">点我下载一个文件</a>
+```
