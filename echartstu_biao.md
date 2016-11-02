@@ -8,6 +8,8 @@
 ```
 **`图表数据：`**图表的JSON数据通过AJAX调用，data-url参数值为图表JSON数据调用地址，Demo演示中的图表JSON数据请进入对应的html文件查看
 #### 参数（options）
+
+
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
