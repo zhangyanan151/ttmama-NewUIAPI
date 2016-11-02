@@ -12,18 +12,8 @@
 | data | array | null | [可选] 提供datagrid需要的数据，如果同时设置有`dataUrl`参数，本参数优先级高。 |
 | loadType | string | POST | [可选] Ajax请求方式。 |
 | dataType | string | json | [可选] 数据类型，可选参数['json' 、 'array' 、 'xml']。 |
-                </tr>
-                <tr>
-                    | hiddenFields |
-                    | array |
-                    | null |
-                    | [可选] `仅用于dataType='array'时`隐藏字段，可以将不能加载到页面上的值设置到给定的字段，array数据除去表头的列后依次赋值。 |
-                </tr>
-                <tr>
-                    | local |
-                    | string |
-                    | remote |
-                    | [可选] 处理数据方式，可选参数['local' | 'remote']，(影响（分页、排序、筛选）)。 |
+| hiddenFields | array | null | [可选] `仅用于dataType='array'时`隐藏字段，可以将不能加载到页面上的值设置到给定的字段，array数据除去表头的列后依次赋值。 |
+| local | string | remote | [可选] 处理数据方式，可选参数['local' 、 'remote']，(影响（分页、排序、筛选）)。 |
                 </tr>
                 <tr>
                     | fieldSortable |
