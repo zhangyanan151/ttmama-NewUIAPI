@@ -55,12 +55,7 @@
 | mobile | 手机号 | <code><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></code> |
 | email | 邮箱 | <code><input type="text" name="doc-validate-m2" size="10" data-rule="email"></code> |
 | date | 日期 | <code><input type="text" name="doc-validate-d3" size="10" data-rule="date"></code> |
-                </tr>
-                <tr>
-                    | datetime |
-                    | 日期时间 |
-                    | <input type="text" name="doc-validate-d4" size="10" data-rule="datetime"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></pre> |
+| datetime | 日期时间 | <code><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></code> |
                 </tr>
                 <tr>
                     | url |
