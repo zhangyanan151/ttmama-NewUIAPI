@@ -50,18 +50,8 @@
 | required | 必填项| <code><input type="text" name="doc-validate1" data-rule="required"></code> |
 | 显示替换名:required | 显示替换名 + 必填项提示消息 | <code><input type="text" name="doc-validate2" data-rule="用户名:required;"></code> |
 | match[name] | 两个字段匹配 | <code><input type="text" name="doc-validate-p1" size="5" data-rule="密码:required"></code> <br /><code><input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)"></code> |
-                </tr>
-                <tr>
-                    | digits |
-                    | 整数 |
-                    | <input type="text" name="doc-validate-d1" size="10" data-rule="digits"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></pre> |
-                </tr>
-                <tr>
-                    | number |
-                    | 数字 |
-                    | <input type="text" name="doc-validate-d2" size="10" data-rule="number"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-d2" size="10" data-rule="number"></pre> |
+| digits | 整数 | <code><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></code> |
+| number | 数字 | <code><input type="text" name="doc-validate-d2" size="10" data-rule="number"></code> |
                 </tr>
                 <tr>
                     | mobile |
