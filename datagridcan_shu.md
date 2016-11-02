@@ -68,11 +68,8 @@
 | showEditCol(tabids) | boolean | true or false | 编辑按钮列：显示、隐藏。 |
 | showhideColumn(column, showFlag) | object/int, boolean | column = 列索引或字段列的jQuery对象，showFlag = true/false | 显示、隐藏某列。 |
 | selectedRows(rows, [selected]) | int/string/object, [boolean] | 单个数据行的索引、逗号分隔的行索引字符串、数据行的jQuery对象，[可选参数，选中 or 取消选中，默认选中] | 选中/取消选中行。 |
-                </tr>
-                <tr>
-                    | add(addLocation) |
-                    | string |
-                    | 'first' | 'last' | 'prev' | 'next' |
+| add(addLocation) | string |
+                    | 'first' 、 'last' 、 'prev' 、 'next' |
                     | 添加行，参数参考datagrid参数`addLocation`。 |
                 </tr>
                 <tr>
