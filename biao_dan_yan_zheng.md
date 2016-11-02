@@ -45,24 +45,9 @@
 
 `更多规则：`请查看插件官网：[http://niceue.com/validator/demo/](http://niceue.com/validator/demo/) 或查看代码文件： `/BJUI/js/bjui-regional.zh-CN.js`
 
-| 规则 | 描述 | 示例 | 示例代码 |
-| -- | -- | -- | -- |
-        <form>
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>规则</th>
-                    <th>描述</th>
-                    <th>示例</th>
-                    <th>示例代码</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | required |
-                    | 必填项 |
-                    | <input type="text" name="doc-validate-r1" size="10" data-rule="required"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate1" data-rule="required"></pre> |
+| 规则 | 描述  | 示例代码 |
+| -- | -- | -- |
+| required | 必填项| <code><input type="text" name="doc-validate1" data-rule="required"></code> |
                 </tr>
                 <tr>
                     | 显示替换名:required |
