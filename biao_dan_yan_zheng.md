@@ -54,12 +54,7 @@
 | number | 数字 | <code><input type="text" name="doc-validate-d2" size="10" data-rule="number"></code> |
 | mobile | 手机号 | <code><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></code> |
 | email | 邮箱 | <code><input type="text" name="doc-validate-m2" size="10" data-rule="email"></code> |
-                </tr>
-                <tr>
-                    | date |
-                    | 日期 |
-                    | <input type="text" name="doc-validate-d3" size="10" data-rule="date"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-d3" size="10" data-rule="date"></pre> |
+| date | 日期 | <code><input type="text" name="doc-validate-d3" size="10" data-rule="date"></code> |
                 </tr>
                 <tr>
                     | datetime |
