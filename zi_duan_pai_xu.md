@@ -33,6 +33,7 @@
 ```js
 $(th).tablefixed('setOrder', options)
 ```
+
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
