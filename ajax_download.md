@@ -1,6 +1,4 @@
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">第三方插件：jquery.fileDownload —— ajax下载</h3>
+### 第三方插件：jquery.fileDownload —— ajax下载
         <blockquote>
             <p>本节主要介绍ajax下载插件 - jquery.fileDownload，插件地址：<a href="https://github.com/johnculviner/jquery.fileDownload" target="_blank">https://github.com/johnculviner/jquery.fileDownload</a>。</p>
             <p>本框架的表格导出、datagrid的导出(exportOption参数的type='file'时)使用了该插件。</p>
