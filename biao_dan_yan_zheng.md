@@ -56,18 +56,8 @@
 | email | 邮箱 | <code><input type="text" name="doc-validate-m2" size="10" data-rule="email"></code> |
 | date | 日期 | <code><input type="text" name="doc-validate-d3" size="10" data-rule="date"></code> |
 | datetime | 日期时间 | <code><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></code> |
-                </tr>
-                <tr>
-                    | url |
-                    | 网址 |
-                    | <input type="text" name="doc-validate-u" size="10" data-rule="url"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-u" size="10" data-rule="url"></pre> |
-                </tr>
-                <tr>
-                    | ID_card |
-                    | 身份证 |
-                    | <input type="text" name="doc-validate-id" size="10" data-rule="ID_card"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-id" size="10" data-rule="ID_card"></pre> |
+| url | 网址 | <code><input type="text" name="doc-validate-u" size="10" data-rule="url"></code> |
+| ID_card | 身份证 | <code><input type="text" name="doc-validate-id" size="10" data-rule="ID_card"></code> |
                 </tr>
                 <tr>
                     | checked |
