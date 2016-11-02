@@ -27,12 +27,7 @@
 | hide | boolean | false | [可选] *`F`* 是否隐藏该列。 |
 | menu | boolean | true | [可选] *`F<`* 列上是否出现菜单按钮（对于多表头，仅对字段列有效）。 |
 | lock | boolean | false | [可选] *`F`* 是否锁定该列(尽量不用，影响速度)。 |
-                </tr>
-                <tr>
-                    | quicksort |
-                    | boolean |
-                    | true |
-                    | [可选] <span class="badge"><i>F</i></span> 允许点击该列进行快速排序。 |
+| quicksort | boolean | true | [可选] *`F<`* 允许点击该列进行快速排序。 |
                 </tr>
             </tbody>
         </table>
