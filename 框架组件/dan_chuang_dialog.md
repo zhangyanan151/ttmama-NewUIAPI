@@ -68,6 +68,7 @@ function openMydialog(obj) {
 ### dialog参数、方法及事件
 ***
 * 本节介绍dialog组件的参数、方法及事件。
+
 #### 参数（options）
 * DOM方式初始化dialog的，推荐使用集合属性`data-options`定义参数，如果使用`data属性`定义参数，注意转换成对应的名称，参见[data属性](../datashu_xing.md)一节。
 
@@ -110,7 +111,9 @@ function openMydialog(obj) {
 | bjui.beforeLoadDialog | 载入dialog内容前事件 | 监听该事件，可以在载入dialog内容前进行相关操作。 |
 | bjui.beforeCloseDialog | 关闭dialog前事件 | 监听该事件，可以在关闭dialog前进行相关操作。 |
 * 这样监听dialog的事件：
-      $(document).on('bjui.beforeLoadDialog', function(e) {
-          var $dialog = $(e.target)
-          // do something...
-      })
+ ```js
+$(document).on('bjui.beforeLoadDialog', function(e) {
+    var $dialog = $(e.target)
+    // do something...
+})
+```
