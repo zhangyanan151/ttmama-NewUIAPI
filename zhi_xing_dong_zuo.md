@@ -9,7 +9,7 @@
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doajax" data-confirm-msg="确定要删除吗？">删除动作</a>
 ```
 jQuery API:
-```javascript
+```js
 $(selector).bjuiajax('doAjax', options)
 ```
 * **doExport(适用于 `导出`)**：
