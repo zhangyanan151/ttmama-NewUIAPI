@@ -24,50 +24,43 @@
 | afterSelectFile | function(url) | null | [可选] 从图片空间选择文件后执行的回调函数。 |
 | confirmSelect | function(url) | null | [可选] `自定义`用于上传(fillDescAfterUploadImage=true时生效)或选择图片并插入成功后的回调函数。 |
 | htmlTags | object | :[^本表底部查看2] | [可选] 指定要保留的HTML标记和属性，官方版见：[http://kindeditor.net/docs/option.html#htmltags](http://kindeditor.net/docs/option.html#htmltags)。 |
-        [^本表底部查看1]:
-        ```js
-        [
-                                'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
-                                'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
-                                'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
-                                'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
-                                'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
-                                'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage',
-                                'flash', 'media', 'insertfile', 'table', 'hr', 'emoticons', 'baidumap', 'pagebreak',
-                                'anchor', 'link', 'unlink', '|', 'about'
-                            ]
-                            </pre>
-                            <p>本框架配置 items 的写法：</p>
-                            <pre>
-                                data-items="'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template'"
-                            </pre>
-                            <p>`或`</p>
-                            <pre>
-                                data-items="source, |, undo, redo, |, preview, print, template"
-                            </pre>
-        ```
+[^本表底部查看1]:
+```js
+[
+    'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
+    'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+    'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+    'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
+    'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+    'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage',
+    'flash', 'media', 'insertfile', 'table', 'hr', 'emoticons', 'baidumap', 'pagebreak',
+    'anchor', 'link', 'unlink', '|', 'about'
+]
+本框架配置 items 的写法：
+data-items="'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template'"
+`或`
+data-items="source, |, undo, redo, |, preview, print, template"
+ ```
         
  [^本表底部查看2]:
  ```js
-  <pre>
-                                {
-                                    font : [],
-                                    span : ['.color', '.background-color', '.font-size', '.font-family'],
-                                    div : ['.margin', '.padding', '.text-align'],
-                                    table: ['align', 'width'],
-                                    'td,th': ['align', 'valign', 'width', 'height', 'colspan', 'rowspan'],
-                                    a : ['href', 'target', 'name'],
-                                    embed : ['src', 'width', 'height', 'type', 'loop', 'autostart', 'quality', '.width', '.height', 'align', 'allowscriptaccess'],
-                                    img : ['src', 'width', 'height', 'border', 'alt', 'title', 'align', '.width', '.height', '.border'],
-                                    'p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6' : [
-                                        'class', 'align', '.text-align', '.color', '.font-weight', '.font-style', '.text-decoration', '.vertical-align', '.text-indent', '.margin-left'
-                                    ],
-                                    pre : ['class'],
-                                    hr : ['class', '.page-break-after'],
-                                    'br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del' : []
-                                    
-                                }
-                            </pre>
+{
+    font : [],
+    span : ['.color', '.background-color', '.font-size', '.font-family'],
+    div : ['.margin', '.padding', '.text-align'],
+    table: ['align', 'width'],
+    'td,th': ['align', 'valign', 'width', 'height', 'colspan', 'rowspan'],
+    a : ['href', 'target', 'name'],
+    embed : ['src', 'width', 'height', 'type', 'loop', 'autostart', 'quality', '.width', '.height', 'align', 'allowscriptaccess'],
+    img : ['src', 'width', 'height', 'border', 'alt', 'title', 'align', '.width', '.height', '.border'],
+    'p,ol,ul,li,blockquote,h1,h2,h3,h4,h5,h6' : [
+        'class', 'align', '.text-align', '.color', '.font-weight', '.font-style', '.text-decoration', '.vertical-align', '.text-indent', '.margin-left'
+    ],
+    pre : ['class'],
+    hr : ['class', '.page-break-after'],
+    'br,tbody,tr,strong,b,sub,sup,em,i,u,strike,s,del' : []
+
+}
  ```
         <p>配置更多参数请查看Kindeditor官方文档：<a href="http://kindeditor.net/docs/index.html" target="_blank">http://kindeditor.net/docs/index.html</a>，本框架引入Kindeditor插件入口在`bjui-plugins.js`</p>
     </div>
