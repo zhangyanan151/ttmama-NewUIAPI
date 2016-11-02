@@ -27,7 +27,7 @@ $(selector).trigger('Event name')
 2. 点击"创建div容器"按钮，将div容器附加到按钮后面。
 3. 点击"触发bjui.initUI事件"按钮，让div容器触发bjui.initUI事件。
 
-**说明:**可以多次监听某一事件，jQuery会依次处理，本例触发bjui.initUI事件时会先触发框架的监听事件(`bjui-plugins.js: 为文本框添加Class[form-control]`)，再触发自定义的监听事件(`红色边框`)。
+**说明：**可以多次监听某一事件，jQuery会依次处理，本例触发bjui.initUI事件时会先触发框架的监听事件(`bjui-plugins.js: 为文本框添加Class[form-control]`)，再触发自定义的监听事件(`红色边框`)。
 
 `事件示例完整代码：`
 ```js
