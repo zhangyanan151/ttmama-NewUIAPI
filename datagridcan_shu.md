@@ -11,12 +11,7 @@
 | dataUrl | string | null | [可选] Ajax请求数据的URL。返回数据模板:![](assets/datagrid_options1.png) |
 | data | array | null | [可选] 提供datagrid需要的数据，如果同时设置有`dataUrl`参数，本参数优先级高。 |
 | loadType | string | POST | [可选] Ajax请求方式。 |
-                </tr>
-                <tr>
-                    | dataType |
-                    | string |
-                    | json |
-                    | [可选] 数据类型，可选参数['json' | 'array' | 'xml']。 |
+| dataType | string | json | [可选] 数据类型，可选参数['json' 、 'array' 、 'xml']。 |
                 </tr>
                 <tr>
                     | hiddenFields |
