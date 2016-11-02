@@ -10,6 +10,7 @@
 ```
 * jQuery API：
       $(input).tags(options)
+
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
@@ -33,7 +34,7 @@
 | -- | -- | -- |
 | aftercreated.bjui.tags | 标签创建后的事件 | 监听该事件，可以在创建好一个标签后进行相关操作。 |
 * 这样监听tags的事件：`mytags - selector`表示触发自动完成标签的input选择器
-```javascript
+```js
 $('mytags - selector').on('aftercreated.bjui.tags', function(e, data) {
     var value = data.value // 当前创建的标签值
     var item  = data.item  // 当前选定项的值(object，具体值由返回JSON决定)

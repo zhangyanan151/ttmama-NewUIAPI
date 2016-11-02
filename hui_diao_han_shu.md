@@ -4,7 +4,7 @@
 
 **注意：**自定义函数参数为：callback，通过DOM附加：`data-callback="自定义函数名称"`，自定义函数名称不带括号及参数。
 * 自定义回调函数示例：
-```javascript
+```js
 function mycallback(json) {
     $(this)
         .bjuiajax('ajaxDone', json)       // 信息提示

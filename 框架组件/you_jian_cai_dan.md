@@ -3,14 +3,14 @@
 本节主要介绍框架的自定义右键菜单。
 #### 初始化
 * jQuery API：`右键菜单仅支持jQuery API初始化`
-```javascript
+```js
 $(selector).contextmenu('show', options)
 ```
 *示例代码：*
 ```html
 <button type="button" class="btn-blue" id="doc-contextmenu-example">请用鼠标右键点我</button>
 ```
-```javascript
+```js
 $('#doc-contextmenu-example').contextmenu('show', 
   {
       items:[

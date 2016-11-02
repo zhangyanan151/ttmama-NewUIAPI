@@ -5,7 +5,7 @@
 * Data属性：div添加属性`data-toggle="upload"`后可触发上传组件。
 
   *示例代码：*
-```javascript
+```js
 function doc_upload_success(file, data) {
     var json = $.parseJSON(data)
 
@@ -30,6 +30,7 @@ function doc_upload_success(file, data) {
 ```
 * jQuery API：
       $(div).uplopd(options)
+ 
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |

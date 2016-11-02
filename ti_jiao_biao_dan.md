@@ -20,7 +20,7 @@
 </form>
 ```
 * jQuery API：`API方式目前不支持验证提交。`
-```javascript
+```js
 $(form).bjuiajax('ajaxForm', options)
 ```
 
