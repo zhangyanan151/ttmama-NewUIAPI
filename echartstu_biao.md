@@ -11,31 +11,8 @@
 
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 | 3:2 |
-| 0:3 | 1:3 | 2:3 | 3:3 |
-| 0:4 | 1:4 | 2:4 | 3:4 |
-
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>默认值</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | url |
-                    | string |
-                    | null |
-                    | [必选] 图表JSON数据调用地址 |
-                </tr>
-                <tr>
-                    | type |
-                    | string |
-                    | null |
-                    | [必选] 图表类型，按需加载，如需两种图表类型切换，请用 ',' 隔开</br>可选类型：bar,chord,eventRiver,force,funnel,gauge,k,line,map,pie,radar,scatter，具体类型所对应的图形请查看<a href="http://echarts.baidu.com" target="_blank">ECharts官网</a> |
+| url | string | null | [必选] 图表JSON数据调用地址 |
+| type | string | null | [必选] 图表类型，按需加载，如需两种图表类型切换，请用 ',' 隔开</br>可选类型：bar,chord,eventRiver,force,funnel,gauge,k,line,map,pie,radar,scatter，具体类型所对应的图形请查看[ECharts官网](http://echarts.baidu.com) |
                 </tr>
                 <tr>
                     | theme |
