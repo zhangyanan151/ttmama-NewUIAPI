@@ -24,39 +24,42 @@
 </div>
 ```
 *其他示例[回调函数]：*
-      <script type="text/javascript">
-        function doc_dialog_onLoad($dialog) {
-            $dialog.alertmsg('info', 'onLoad回调：不填写工号是不能关闭本弹窗的。')
-        }
-        function doc_dialog_beforeClose($dialog) {
-            var code = $dialog.find('#doc-dialog-code').val()
+```js
+function doc_dialog_onLoad($dialog) {
+    $dialog.alertmsg('info', 'onLoad回调：不填写工号是不能关闭本弹窗的。')
+}
+function doc_dialog_beforeClose($dialog) {
+    var code = $dialog.find('#doc-dialog-code').val()
 
-            if (code) return true
-            $dialog.alertmsg('error', 'beforeClose回调：关闭弹窗前请先填入你的工号。')
-            return false
-        }
-        function doc_dialog_onClose() {
-            $(this).alertmsg('info', 'onClose回调：你刚刚关闭了一个dialog。')
-        }
-       </script>
-       <button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog4" data-target="#doc-dialog-target-callback" data-title="回调函数示例" data-on-load="doc_dialog_onLoad" data-before-close="doc_dialog_beforeClose" data-on-close="doc_dialog_onClose">打开dialog</button>
-        <div id="doc-dialog-target-callback" data-noinit="true" class="hide">
-            <div class="text-center">
-                <h3>dialog回调函数示例</h3>
-                <hr>
-                <p><label>工号：</label><input type="text" name="code" id="doc-dialog-code"></p>
-            </div>
-        </div>
+    if (code) return true
+    $dialog.alertmsg('error', 'beforeClose回调：关闭弹窗前请先填入你的工号。')
+    return false
+}
+function doc_dialog_onClose() {
+    $(this).alertmsg('info', 'onClose回调：你刚刚关闭了一个dialog。')
+}
+```
+```html
+<button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog4" data-target="#doc-dialog-target-callback" data-title="回调函数示例" data-on-load="doc_dialog_onLoad" data-before-close="doc_dialog_beforeClose" data-on-close="doc_dialog_onClose">打开dialog</button>
+<div id="doc-dialog-target-callback" data-noinit="true" class="hide">
+    <div class="text-center">
+        <h3>dialog回调函数示例</h3>
+        <hr>
+        <p><label>工号：</label><input type="text" name="code" id="doc-dialog-code"></p>
+    </div>
+</div>
+```
 * jQuery API：
 
   *jQuery示例：*本例完整代码
-
-      <script type="text/javascript">
-        function openMydialog(obj) {
-            $(obj).dialog({id:'mydialog', url:'doc/dialog/mydialog.html', title:'我的业务弹窗'});
-        }
-      </script>
-      <button type="button" class="btn-default" onclick="openMydialog(this)">打开dialog</button>
+```js
+function openMydialog(obj) {
+    $(obj).dialog({id:'mydialog', url:'doc/dialog/mydialog.html', title:'我的业务弹窗'});
+}
+```
+```html
+<button type="button" class="btn-default" onclick="openMydialog(this)">打开dialog</button>
+```
 *jQuery方法代码：*
 
       $(selector).dialog(options)
