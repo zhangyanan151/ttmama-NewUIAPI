@@ -5,18 +5,24 @@
 * Data属性：DOM添加属性`data-toggle="alertmsg"`，并定义type及msg参数。
 
  *DOM示例1：*
-      <button type="button" class="btn-default" data-toggle="alertmsg" data-msg="我是一个信息提示" data-type="info">我是信息提示</button>
+ ```html
+<button type="button" class="btn-default" data-toggle="alertmsg" data-msg="我是一个信息提示" data-type="info">我是信息提示</button>
+```
 *DOM示例2(集合参数)：*
-      <button type="button" class="btn-default" data-toggle="alertmsg" data-options="{msg:'我是错误提示', type:'error'}">我是错误提示&lt;/button>
+```html
+<button type="button" class="btn-default" data-toggle="alertmsg" data-options="{msg:'我是错误提示', type:'error'}">我是错误提示&lt;/button>
+```
 * jQuery API：
 
   *示例代码：*
-      <script type="text/javascript">
-          $('#doc-alertmsg-demo').click(function() {
-              $(this).alertmsg('confirm', '我是提示内容', {displayMode:'slide', displayPosition:'bottomcenter', okName:'Yes', cancelName:'no', title:'我是提示标题'})
-          })
-      </script>
-      <a href="javascript:;" id="doc-alertmsg-demo">测试提示框</a>
+```js
+$('#doc-alertmsg-demo').click(function() {
+    $(this).alertmsg('confirm', '我是提示内容', {displayMode:'slide', displayPosition:'bottomcenter', okName:'Yes', cancelName:'no', title:'我是提示标题'})
+})
+```
+```html
+<a href="javascript:;" id="doc-alertmsg-demo">测试提示框</a>
+```
  *API调用方法：*
       $(selector).alertmsg(type, msg, options)
 #### 参数（options）
