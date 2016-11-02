@@ -30,16 +30,8 @@
 * 以下参数仅限于DOM传参，js传参请到插件官网查看。
 * 不在form中的字段不会验证。
 
-
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>描述</th>
-                    <th>示例</th>
-                </tr>
-            </thead>
+| 名称 | 类型 | 描述 | 示例 |
+| -- | -- | -- | -- |
             <tbody>
                 <tr>
                     | data-rule |
