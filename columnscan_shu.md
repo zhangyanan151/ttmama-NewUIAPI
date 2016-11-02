@@ -9,30 +9,10 @@
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
 | name | string | null | [可选] *`F`* 该列字段名(关联json数据、xml数据、编辑及保存的数据)。`未设置name将不能进行添加\编辑等操作` |
-                </tr>
-                <tr>
-                    | label |
-                    | string |
-                    | null |
-                    | [可选] <span class="badge"><i>D</i></span> 显示的列标题。 |
-                </tr>
-                <tr>
-                    | width |
-                    | int |
-                    | 50或HTML表格对应列的宽 |
-                    | [可选] 列宽。 |
-                </tr>
-                <tr>
-                    | align |
-                    | string |
-                    | left |
-                    | [可选] 对齐方式(left、center、right)。 |
-                </tr>
-                <tr>
-                    | type |
-                    | string |
-                    | string |
-                    | [可选] <span class="badge"><i>F</i></span> 数据类型(string、boolean、select、textarea、date、lookup、spinner)。 |
+| label | string | null | [可选] <span class="badge"><i>D</i></span> 显示的列标题。 |
+| width | int | 50或HTML表格对应列的宽 | [可选] 列宽。 |
+| align | string | left | [可选] 对齐方式(left、center、right)。 |
+| type | string | string | [可选] *`F`* 数据类型(string、boolean、select、textarea、date、lookup、spinner)。 |
                 </tr>
                 <tr>
                     | align |
