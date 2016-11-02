@@ -21,36 +21,11 @@
 | filterMult | boolean | true | [可选] 支持多字段筛选。 |
 | linenumberAll | boolean | false | [可选] 行号范围，true = 为所有数据编号，false = 为当前页数据编号。 |
 | showLinenumber | boolean/string | true | [可选] 是否显示行号，参数[true 、 false 、 'lock']，lock参数 = 锁定行号列（适用于多列字段，出现横向滚动条的情况）。 |
-                </tr>
-                <tr>
-                    | showCheckboxcol |
-                    | boolean/string |
-                    | false |
-                    | [可选] 是否显示行复选框，参数同上。 |
-                </tr>
-                <tr>
-                    | showEditbtnscol |
-                    | boolean |
-                    | false |
-                    | [可选] 是否显示编辑按钮列。 |
-                </tr>
-                <tr>
-                    | showTfoot |
-                    | boolean |
-                    | false |
-                    | [可选] 是否显示页脚，适用于显示统计信息，需要字段相关参数支持。 |
-                </tr>
-                <tr>
-                    | showToolbar |
-                    | boolean |
-                    | false |
-                    | [可选] 是否显示工具条，需要设置参数`toolbarItem`或`toolbarCustom`。 |
-                </tr>
-                <tr>
-                    | toolbarItem |
-                    | string |
-                    | null |
-                    | [可选] 显示工具条按钮，可选参数['all, add, edit, cancel, save, del, import, export, |']，“all” = 显示所有按钮，“|” = 按钮组分隔符。 |
+| showCheckboxcol | boolean/string | false | [可选] 是否显示行复选框，参数同上。 |
+| showEditbtnscol | boolean | false | [可选] 是否显示编辑按钮列。 |
+| showTfoot | boolean | false | [可选] 是否显示页脚，适用于显示统计信息，需要字段相关参数支持。 |
+| showToolbar | boolean | false | [可选] 是否显示工具条，需要设置参数`toolbarItem`或`toolbarCustom`。 |
+| toolbarItem | string | null | [可选] 显示工具条按钮，可选参数['all, add, edit, cancel, save, del, import, export, 竖线']，“all” = 显示所有按钮，“竖线” = 按钮组分隔符。 |
                 </tr>
                 <tr>
                     | toolbarCustom |
