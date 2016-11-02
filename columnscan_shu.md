@@ -6,7 +6,7 @@
 * 凡是含有*`F`*标记的参数对于多表头均无效。
 * 凡是含有*`D<`*标记的参数对于HTML表头均无效。
 
-
+| 名称 | 类型 | 默认值 | 描述 |
         </blockquote>
         <table class="table table-bordered table-striped table-hover">
             <thead>
