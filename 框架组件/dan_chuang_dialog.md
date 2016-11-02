@@ -3,18 +3,26 @@
 ###### 创建一个dialog有以下两种方式：
 * Data属性：DOM添加属性<code>data-toggle="dialog"</code>后，单击触发。<br>
  *DOM示例1：*
-      <a href="mydialog.html" data-toggle="dialog" data-id="mydialog1" data-title="我的业务弹窗1">打开dialog</a>
+ ```html
+<a href="mydialog.html" data-toggle="dialog" data-id="mydialog1" data-title="我的业务弹窗1">打开dialog</a>
+```
 *DOM示例2：*
-      <button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog2" data-url="mydialog.html" data-title="我的业务弹窗2">打开dialog</button>
+```html
+<button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog2" data-url="mydialog.html" data-title="我的业务弹窗2">打开dialog</button>
+```
 *DOM示例3(参数集合)：*
-      <button type="button" class="btn-green" data-toggle="dialog" data-options="{id:'mydialog2', url:'doc/dialog/mydialog.html', title:'我的业务弹窗2(参数集合)'}">打开dialog(参数集合)</button>
+```html
+<button type="button" class="btn-green" data-toggle="dialog" data-options="{id:'mydialog2', url:'doc/dialog/mydialog.html', title:'我的业务弹窗2(参数集合)'}">打开dialog(参数集合)</button>
+```
 *其他示例[加载容器中的内容]：*
-      <button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog3" data-target="#doc-dialog-target" data-title="加载容器中的内容">打开dialog</button>
+```html
+<button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog3" data-target="#doc-dialog-target" data-title="加载容器中的内容">打开dialog</button>
       <div id="doc-dialog-target" data-noinit="true" class="hide">
         <p><input type="checkbox" id="doc-dialog-checkbox" data-toggle="icheck" data-label="测试Checkbox"></p>
         <p><label>文本框：</label><input type="text" placeholder="文本框1" size="25"></p>
         <p><label>下拉框：</label><select data-toggle="selectpicker"><option value="1">选项一</option><option value="2">选项二</option></select></p>
       </div>
+```
 *其他示例[回调函数]：*
       <script type="text/javascript">
         function doc_dialog_onLoad($dialog) {
