@@ -38,27 +38,9 @@ function ztree_returnjson() {
 * 推荐使用集合属性`data-options`定义参数，如果使用`data属性`定义参数，注意转换成对应的名称，参见[data属性]()一节。
 
 | 属性名称 | 类型、参数 | 默认值 | 描述信息 |
-        <table class="table table-striped table-hover">
-            <thead>
-                <tr>
-                    <th width="160">属性名称</th>
-                    <th>类型、参数</th>
-                    <th>默认值</th>
-                    <th>描述信息</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | nodes |
-                    | object/string/function |
-                    | null |
-                    | zTree展示的JSON数据，参数格式可以是：JSON对象，JSON格式的字符串，返回JSON数据的方法名，返回JSON数据的方法 |
-                </tr>
-                <tr>
-                    | └ faicon |
-                    | string |
-                    | null |
-                    | 定义zTree节点显示的字体图标，图标名称见<a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>，定义图标名称不要加`fa-` |
+| -- | -- | -- | -- |
+| nodes | object/string/function | null | zTree展示的JSON数据，参数格式可以是：JSON对象，JSON格式的字符串，返回JSON数据的方法名，返回JSON数据的方法 |
+| └ faicon | string | null | 定义zTree节点显示的字体图标，图标名称见[Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/)，定义图标名称不要加`fa-` |
                 </tr>
                 <tr>
                     | └ faiconClose |
