@@ -79,7 +79,7 @@ $(selector).tabledit('add', target, num)
 | num | int | 1 | [可选] 每次添加的行数。 |
 
 
-[^参数callback的默认值]：
+[^参数callback的默认值如下]：
  ```js
 function(json) {
     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
