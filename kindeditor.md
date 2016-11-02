@@ -1,23 +1,12 @@
-<script type="text/javascript">
-    function doc_kindeditor_dialog_onload($dialog) {
-        $dialog.find('pre').addClass('brush: html')
-        SyntaxHighlighter.highlight()
-    }
-</script>
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">第三方插件：Kindeditor —— html编辑器</h3>
-        <blockquote>
-            <p>本节主要介绍在线HTML编辑器 - Kindeditor，插件地址：<a href="http://kindeditor.net/" target="_blank">http://kindeditor.net/</a>。</p>
-        </blockquote>
-        <h4>初始化</h4>
-        <ul>
-            <li>Data属性：textarea添加属性`data-toggle="kindeditor"`后即可触发。<br>
-                <br><span class="label label-default">DOM示例：</span>　<a href="doc/plugin/myeditor.html" data-toggle="dialog" data-id="myeditor" data-title="我的Kindeditor页面" data-width="800" data-height="400">打开测试页面</a><br>
-                <p>示例代码：</p>
-                <pre class="brush: html">
-                    <textarea data-toggle="kindeditor" data-items="fontname, fontsize, |, forecolor, hilitecolor, bold, italic, underline, removeformat, |, justifyleft, justifycenter, justifyright, insertorderedlist, insertunorderedlist, |, emoticons, image, link"></textarea>
-                </pre>
+### 第三方插件：Kindeditor —— html编辑器
+***
+本节主要介绍在线HTML编辑器 - Kindeditor，插件地址：[http://kindeditor.net/](http://kindeditor.net/)。
+#### 初始化
+* Data属性：textarea添加属性`data-toggle="kindeditor"`后即可触发。<br>
+**`DOM示例代码：`**
+```html
+<textarea data-toggle="kindeditor" data-items="fontname, fontsize, |, forecolor, hilitecolor, bold, italic, underline, removeformat, |, justifyleft, justifycenter, justifyright, insertorderedlist, insertunorderedlist, |, emoticons, image, link"></textarea>
+```
             </li>
             <li>jQuery API：<a href="http://kindeditor.net/docs/index.html" target="_blank">http://kindeditor.net/docs/index.html</a></li>
         </ul>
