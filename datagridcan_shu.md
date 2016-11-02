@@ -33,54 +33,14 @@
 | columnFilter | boolean | true | [可选] 表头字段列菜单上出现 “过滤” 选项。 |
 | columnLock | boolean | true | [可选] 表头字段列菜单上出现 “锁定列、解除锁定” 选项。 |
 | paging | boolean/object | true | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：`{pageSize:30, selectPageSize:'30,60,90', pageCurrent:1, showPagenum:5, total:0}`<br>`如果local='remote'，并通过dataUrl参数请求json数据时，返回的数据要提供total、pageCurrent参数，可提供pageSize参数`|
-                </tr>
-                <tr>
-                    | pagingAlign |
-                    | string |
-                    | center |
-                    | [可选] 分页组件对齐方式，参数['left' | 'center' | 'right'] |
-                </tr>
-                <tr>
-                    | editUrl |
-                    | string |
-                    | null |
-                    | [可选] 保存编辑、添加数据的url，Ajax请求方式为POST，服务器端接收的参数名称为"json"，数据类型是JSON Array。 |
-                </tr>
-                <tr>
-                    | editCallback |
-                    | function(json) |
-                    | null |
-                    | [可选] 保存成功后的回调，返回的json内容可以是B-JUI默认的回调json或保存后的json数据，`datagrid默认回调：如果返回保存后的json数据，将会更新对应的数据行`。 |
-                </tr>
-                <tr>
-                    | editMode |
-                    | string |
-                    | inline |
-                    | [可选] 编辑、添加数据的方式，参数[false | 'inline' | 'dialog']。false = 不能编辑，inline = 行内编辑，dialog = 弹窗编辑。 |
-                </tr>
-                <tr>
-                    | editDialogOp |
-                    | object |
-                    | null |
-                    | [可选] 弹窗编辑方式时，设置弹出窗口的参数，如`{width:500, height:300, mask:false}` |
-                </tr>
-                <tr>
-                    | inlineEditMult |
-                    | boolean |
-                    | true |
-                    | [可选] 允许行内编辑模式下同时添加/编辑多行。 |
-                </tr>
-                <tr>
-                    | saveAll |
-                    | boolean |
-                    | true |
-                    | [可选] 适用于多行行内编辑时，一次性保存全部数据，发送到服务器端数据格式见参数`editUrl`。 |
-                </tr>
-                <tr>
-                    | addLocation |
-                    | string |
-                    | first |
-                    | [可选] 添加新行数据于当前页的位置，参数['first' | 'last' | 'prev' | 'next']，参数prev和next参考当前选中行位置。 |
+| pagingAlign | string | center | [可选] 分页组件对齐方式，参数['left' | 'center' | 'right'] |
+| editUrl | string | null | [可选] 保存编辑、添加数据的url，Ajax请求方式为POST，服务器端接收的参数名称为"json"，数据类型是JSON Array。 |
+| editCallback | function(json) | null | [可选] 保存成功后的回调，返回的json内容可以是B-JUI默认的回调json或保存后的json数据，`datagrid默认回调：如果返回保存后的json数据，将会更新对应的数据行`。 |
+| editMode | string | inline | [可选] 编辑、添加数据的方式，参数[false 、 'inline' 、 'dialog']。false = 不能编辑，inline = 行内编辑，dialog = 弹窗编辑。 |
+| editDialogOp | object | null | [可选] 弹窗编辑方式时，设置弹出窗口的参数，如`{width:500, height:300, mask:false}` |
+| inlineEditMult | boolean | true | [可选] 允许行内编辑模式下同时添加/编辑多行。 |
+| saveAll | boolean | true | [可选] 适用于多行行内编辑时，一次性保存全部数据，发送到服务器端数据格式见参数`editUrl`。 |
+| addLocation | string | first | [可选] 添加新行数据于当前页的位置，参数['first' 、 'last' 、 'prev' 、 'next']，参数prev和next参考当前选中行位置。 |
                 </tr>
                 <tr>
                     | delUrl |
