@@ -8,8 +8,7 @@
 <textarea data-toggle="kindeditor" data-items="fontname, fontsize, |, forecolor, hilitecolor, bold, italic, underline, removeformat, |, justifyleft, justifycenter, justifyright, insertorderedlist, insertunorderedlist, |, emoticons, image, link"></textarea>
 ```
 * jQuery API：[http://kindeditor.net/docs/index.html](http://kindeditor.net/docs/index.html)
-        </ul>
-        <h4>参数（options）`basePath`<small>为kindeditor插件目录</small></h4>
+#### 参数（options）`basePath`为kindeditor插件目录
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
