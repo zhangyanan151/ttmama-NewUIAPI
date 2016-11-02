@@ -17,11 +17,11 @@
 *其他示例[加载容器中的内容]：*
 ```html
 <button type="button" class="btn-green" data-toggle="dialog" data-id="mydialog3" data-target="#doc-dialog-target" data-title="加载容器中的内容">打开dialog</button>
-      <div id="doc-dialog-target" data-noinit="true" class="hide">
-        <p><input type="checkbox" id="doc-dialog-checkbox" data-toggle="icheck" data-label="测试Checkbox"></p>
-        <p><label>文本框：</label><input type="text" placeholder="文本框1" size="25"></p>
-        <p><label>下拉框：</label><select data-toggle="selectpicker"><option value="1">选项一</option><option value="2">选项二</option></select></p>
-      </div>
+<div id="doc-dialog-target" data-noinit="true" class="hide">
+  <p><input type="checkbox" id="doc-dialog-checkbox" data-toggle="icheck" data-label="测试Checkbox"></p>
+  <p><label>文本框：</label><input type="text" placeholder="文本框1" size="25"></p>
+  <p><label>下拉框：</label><select data-toggle="selectpicker"><option value="1">选项一</option><option value="2">选项二</option></select></p>
+</div>
 ```
 *其他示例[回调函数]：*
       <script type="text/javascript">
