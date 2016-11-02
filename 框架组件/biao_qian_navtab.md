@@ -51,6 +51,7 @@ function openMytab(obj) {
 ### navtab参数、方法及事件
 ***
 * 本节介绍navtab组件的参数、方法及事件。
+
 #### 参数（options）
 * DOM方式初始化navtab的，推荐使用集合属性`data-options`定义参数，如果使用`data属性`定义参数，注意转换成对应的名称，参见[data属性](../datashu_xing.md)一节。
 
@@ -85,8 +86,10 @@ function openMytab(obj) {
 | bjui.beforeLoadNavtab | 载入navtab内容前事件 | 监听该事件，可以在载入navtab内容前进行相关操作。 |
 | bjui.beforeCloseNavtab | 关闭navtab前事件 | 监听该事件，可以在关闭navtab前进行相关操作。 |
 * 这样监听navtab的事件：
-      $(document).on('bjui.beforeLoadNavtab', function(e) {
-          var $navtab = $(e.target)
-          // do something...
-      })
+```js
+$(document).on('bjui.beforeLoadNavtab', function(e) {
+    var $navtab = $(e.target)
+    // do something...
+})
+```
 
