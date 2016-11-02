@@ -26,48 +26,13 @@
 | showTfoot | boolean | false | [可选] 是否显示页脚，适用于显示统计信息，需要字段相关参数支持。 |
 | showToolbar | boolean | false | [可选] 是否显示工具条，需要设置参数`toolbarItem`或`toolbarCustom`。 |
 | toolbarItem | string | null | [可选] 显示工具条按钮，可选参数['all, add, edit, cancel, save, del, import, export, 竖线']，“all” = 显示所有按钮，“竖线” = 按钮组分隔符。 |
-                </tr>
-                <tr>
-                    | toolbarCustom |
-                    | string/object/function |
-                    | null |
-                    | [可选] 自定义的html内容或jQuery DOM对象，支持带返回值函数。 |
-                </tr>
-                <tr>
-                    | columnResize |
-                    | boolean |
-                    | true |
-                    | [可选] 允许调整列宽。 |
-                </tr>
-                <tr>
-                    | columnMenu |
-                    | boolean |
-                    | true |
-                    | [可选] 表头字段列上显示菜单按钮。 |
-                </tr>
-                <tr>
-                    | columnShowhide |
-                    | boolean |
-                    | true |
-                    | [可选] 表头字段列菜单上出现 “显示/隐藏 列” 选项。 |
-                </tr>
-                <tr>
-                    | columnFilter |
-                    | boolean |
-                    | true |
-                    | [可选] 表头字段列菜单上出现 “过滤” 选项。 |
-                </tr>
-                <tr>
-                    | columnLock |
-                    | boolean |
-                    | true |
-                    | [可选] 表头字段列菜单上出现 “锁定列、解除锁定” 选项。 |
-                </tr>
-                <tr>
-                    | paging |
-                    | boolean/object |
-                    | true |
-                    | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：
+| toolbarCustom | string/object/function | null | [可选] 自定义的html内容或jQuery DOM对象，支持带返回值函数。 |
+| columnResize | boolean | true | [可选] 允许调整列宽。 |
+| columnMenu | boolean | true | [可选] 表头字段列上显示菜单按钮。 |
+| columnShowhide | boolean | true | [可选] 表头字段列菜单上出现 “显示/隐藏 列” 选项。 |
+| columnFilter | boolean | true | [可选] 表头字段列菜单上出现 “过滤” 选项。 |
+| columnLock | boolean | true | [可选] 表头字段列菜单上出现 “锁定列、解除锁定” 选项。 |
+| paging | boolean/object | true | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：
                         `{pageSize:30, selectPageSize:'30,60,90', pageCurrent:1, showPagenum:5, total:0}`<br>
                         `如果local='remote'，并通过dataUrl参数请求json数据时，返回的数据要提供total、pageCurrent参数，可提供pageSize参数`
                      |
