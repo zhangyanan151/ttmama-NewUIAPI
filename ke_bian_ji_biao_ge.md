@@ -78,11 +78,11 @@ $(selector).tabledit('add', target, num)
 | target | selector | null | [必选] 需要添加行的目标表格选择器。 |
 | num | int | 1 | [可选] 每次添加的行数。 |
 
-`function(json) {
+"function(json) {
                                     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
                                         _doRead($tr)
                                     } else {
                                         $tr.bjuiajax('ajaxDone', json)
                                     }
-                                }`
+                                }"
 
