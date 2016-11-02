@@ -9,11 +9,9 @@
 <input type="radio" name="doc-radio1" id="doc-radio1" data-toggle="icheck" data-label="单选1">
 <input type="radio" name="doc-radio1" id="doc-radio2" data-toggle="icheck" data-label="单选2">
 ```
-            <li>jQuery API：<a href="http://www.bootcss.com/p/icheck/" target="_blank">http://www.bootcss.com/p/icheck/</a></li>
-        </ul>
-        <h4>状态改变事件</h4>
-        <blockquote class="point">
-            <p>更多事件及方法见插件官网</p>
+* jQuery API：[http://www.bootcss.com/p/icheck/](http://www.bootcss.com/p/icheck/)
+#### 状态改变事件
+*更多事件及方法见插件官网*
         </blockquote>
         　　<span class="label label-default">示例：</span>　　<input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
         <input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
