@@ -12,63 +12,10 @@
 
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>默认值</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | pasteType |
-                    | int |
-                    | 2 |
-                    | [可选] 粘贴类型，0:禁止粘贴, 1:纯文本粘贴, 2:HTML粘贴。 |
-                </tr>
-                <tr>
-                    | minHeight |
-                    | int |
-                    | 260 |
-                    | [可选] 编辑器的高度。 |
-                </tr>
-                <tr>
-                    | autoHeightMode |
-                    | boolean |
-                    | false |
-                    | [可选] 编辑器是否可以自动调整高度。 |
-                </tr>
-                <tr>
-                    | items |
-                    | string |
-                    | 
-                        <a href="javascript:;" data-toggle="dialog" data-target="#doc-kindeditor-items" data-id="dialog-doc-items" data-width="800" data-height="320" data-on-load="doc_kindeditor_dialog_onload" data-title="默认items">点我查看</a>
-                        <span id="doc-kindeditor-items" class="hide">
-                            <p>默认items：</p>
-                            <pre>
-                            [
-                                'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
-                                'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
-                                'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
-                                'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
-                                'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
-                                'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage',
-                                'flash', 'media', 'insertfile', 'table', 'hr', 'emoticons', 'baidumap', 'pagebreak',
-                                'anchor', 'link', 'unlink', '|', 'about'
-                            ]
-                            </pre>
-                            <p>本框架配置 items 的写法：</p>
-                            <pre>
-                                data-items="'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template'"
-                            </pre>
-                            <p>`或`</p>
-                            <pre>
-                                data-items="source, |, undo, redo, |, preview, print, template"
-                            </pre>
-                        </span>
-                     |
+| pasteType | int | 2 | [可选] 粘贴类型，0:禁止粘贴, 1:纯文本粘贴, 2:HTML粘贴。 |
+| minHeight | int | 260 | [可选] 编辑器的高度。 |
+| autoHeightMode | boolean | false | [可选] 编辑器是否可以自动调整高度。 |
+| items | string ||:[^本表底部查看]|
                     | [可选] 编辑器的工具栏显示图标，多个图标名称以`,`分隔，全部工具见：<a href="http://kindeditor.net/docs/option.html#items" target="_blank">http://kindeditor.net/docs/option.html#items</a>。 |
                 </tr>
                 <tr>
@@ -143,6 +90,28 @@
                 </tr>
             </tbody>
         </table>
+        [^a]:
+        ```js
+        [
+                                'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
+                                'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                                'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+                                'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
+                                'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                                'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage',
+                                'flash', 'media', 'insertfile', 'table', 'hr', 'emoticons', 'baidumap', 'pagebreak',
+                                'anchor', 'link', 'unlink', '|', 'about'
+                            ]
+                            </pre>
+                            <p>本框架配置 items 的写法：</p>
+                            <pre>
+                                data-items="'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template'"
+                            </pre>
+                            <p>`或`</p>
+                            <pre>
+                                data-items="source, |, undo, redo, |, preview, print, template"
+                            </pre>
+        ```
         <p>配置更多参数请查看Kindeditor官方文档：<a href="http://kindeditor.net/docs/index.html" target="_blank">http://kindeditor.net/docs/index.html</a>，本框架引入Kindeditor插件入口在`bjui-plugins.js`</p>
     </div>
 </div>
