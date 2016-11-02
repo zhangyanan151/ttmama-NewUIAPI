@@ -1,8 +1,6 @@
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">第三方插件：zTree —— 树插件</h3>
-        <blockquote>
-            <p>本节主要介绍jQuery树插件 - zTree，插件地址：<a href="http://www.ztree.me/" target="_blank">http://www.ztree.me/</a>。</p>
+### 第三方插件：zTree —— 树插件
+***
+本节主要介绍jQuery树插件 - zTree，插件地址：[http://www.ztree.me/](http://www.ztree.me/)。</p>
         </blockquote>
         <h4>初始化</h4>
         <ul>
