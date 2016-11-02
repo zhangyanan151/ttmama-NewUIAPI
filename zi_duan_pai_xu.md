@@ -12,8 +12,8 @@
   <input type="hidden" name="orderField" value="${param.orderField}">         <!-- 排序字段 -->
   <input type="hidden" name="orderDirection" value="${param.orderDirection}"> <!-- 排序方向 -->
   ```
-  `注意1：`如果页片中`没有#pageForm`，`将不能触发`字段排序及分页，如果`#pageForm没有放置参数input`，框架会`自动加入`。
-  `注意2：`如果修改了框架初始化参数`pageInfo`，请注意手动放置的参数input的name要与之一致，如果不一致框架将会自动加入`pageInfo`定义的参数input。
+  **`注意1：`**如果页片中`没有#pageForm`，`将不能触发`字段排序及分页，如果`#pageForm没有放置参数input`，框架会`自动加入`。
+   **`注意2：`**如果修改了框架初始化参数`pageInfo`，请注意手动放置的参数input的name要与之一致，如果不一致框架将会自动加入`pageInfo`定义的参数input。
   
 #### 初始化
 * Data属性：th元素添加属性`data-order-field="排序字段名"`后，th会自动添加排序按钮，点击按钮即可触发排序操作。
