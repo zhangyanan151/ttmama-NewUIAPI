@@ -79,6 +79,8 @@ $(selector).tabledit('add', target, num)
 | num | int | 1 | [可选] 每次添加的行数。 |
 
 
+> 脚注：
+> 
 [^hover_to_see]:
 ```js
 function(json) {
