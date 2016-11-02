@@ -25,7 +25,7 @@
 | -- | -- | -- |
 | afterchange.bjui.spinner | 微调后的事件 | 监听该事件，可以在调整值后进行相关操作。 |
 * 这样监听spinner的事件：`myspinner - selector`表示触发微调的input选择器
-```javascript
+```js
 $('myspinner - selector').on('afterchange.bjui.spinner', function(e, data) {
     var myvalue = data.value
 
