@@ -53,12 +53,7 @@
 | digits | 整数 | <code><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></code> |
 | number | 数字 | <code><input type="text" name="doc-validate-d2" size="10" data-rule="number"></code> |
 | mobile | 手机号 | <code><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></code> |
-                </tr>
-                <tr>
-                    | email |
-                    | 邮箱 |
-                    | <input type="text" name="doc-validate-m2" size="10" data-rule="email"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-m2" size="10" data-rule="email"></pre> |
+| email | 邮箱 | <code><input type="text" name="doc-validate-m2" size="10" data-rule="email"></code> |
                 </tr>
                 <tr>
                     | date |
