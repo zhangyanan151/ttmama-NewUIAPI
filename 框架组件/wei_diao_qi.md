@@ -4,7 +4,7 @@
 #### 初始化
 * Data属性：input添加属性`data-toggle="spinner"`。
 
-* 示例代码：*
+  *示例代码：*
  ```html
 <input type="text" data-toggle="spinner">
 ```
