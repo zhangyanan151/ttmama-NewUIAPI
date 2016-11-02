@@ -48,12 +48,7 @@
 | 规则 | 描述  | 示例代码 |
 | -- | -- | -- |
 | required | 必填项| <code><input type="text" name="doc-validate1" data-rule="required"></code> |
-                </tr>
-                <tr>
-                    | 显示替换名:required |
-                    | 显示替换名 + 必填项提示消息 |
-                    | <input type="text" name="doc-validate-r2" size="10" data-rule="用户名:required"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate2" data-rule="用户名:required;"></pre> |
+| 显示替换名:required | 显示替换名 + 必填项提示消息 | <code><input type="text" name="doc-validate2" data-rule="用户名:required;"></code> |
                 </tr>
                 <tr>
                     | match[name] |
