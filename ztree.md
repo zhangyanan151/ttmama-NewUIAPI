@@ -31,7 +31,10 @@ function ztree_returnjson() {
     return [{id:1,pid:0,name:'表单元素',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]
 }
 ```
-                <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:'ztree_returnjson'}"></ul>
+```html
+<ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:'ztree_returnjson'}"></ul>
+```
+                
             </pre>
         </blockquote>
         <h4>DOM初始化的zTree参数</h4>
