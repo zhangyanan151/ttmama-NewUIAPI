@@ -68,61 +68,16 @@
 | showEditCol(tabids) | boolean | true or false | 编辑按钮列：显示、隐藏。 |
 | showhideColumn(column, showFlag) | object/int, boolean | column = 列索引或字段列的jQuery对象，showFlag = true/false | 显示、隐藏某列。 |
 | selectedRows(rows, [selected]) | int/string/object, [boolean] | 单个数据行的索引、逗号分隔的行索引字符串、数据行的jQuery对象，[可选参数，选中 or 取消选中，默认选中] | 选中/取消选中行。 |
-| add(addLocation) | string |
-                    | 'first' 、 'last' 、 'prev' 、 'next' |
-                    | 添加行，参数参考datagrid参数`addLocation`。 |
-                </tr>
-                <tr>
-                    | doEditRow(row) |
-                    | object/int |
-                    | 数据行的jQuery对象或行索引。 |
-                    | 编辑行。 |
-                </tr>
-                <tr>
-                    | doCancelEditRow(row) |
-                    | object/int |
-                    | 数据行的jQuery对象或行索引。 |
-                    | 取消编辑行。 |
-                </tr>
-                <tr>
-                    | doSaveEditRow(row) |
-                    | object/int |
-                    | 数据行的jQuery对象或行索引。 |
-                    | 保存编辑行。 |
-                </tr>
-                <tr>
-                    | delRows(rows) |
-                    | int/string/object |
-                    | 单个数据行的索引、逗号分隔的行索引字符串、数据行的jQuery对象 |
-                    | 删除行。 |
-                </tr>
-                <tr>
-                    | saveAll() |
-                    | -- |
-                    | -- |
-                    | 保存所有编辑行。 |
-                </tr>
-                <tr>
-                    | refresh() |
-                    | -- |
-                    | -- |
-                    | 刷新，重新加载数据。 |
-                </tr>
-                <tr>
-                    | jumpPage(pageNum, [pageSize]) |
-                    | int, int |
-                    | 跳转页码(仅设置分页大小参数时，可设为null)，[可选参数，页大小] |
-                    | 跳转到指定页码。 |
-                </tr>
-                <tr>
-                    | destroy() |
-                    | -- |
-                    | -- |
-                    | 销毁datagrid。 |
-                </tr>
-            </tbody>
-        </table>
-        <h4>取得选中行</h4>
+| add(addLocation) | string | 'first' 、 'last' 、 'prev' 、 'next' | 添加行，参数参考datagrid参数`addLocation`。 |
+| doEditRow(row) | object/int | 数据行的jQuery对象或行索引。 | 编辑行。 |
+| doCancelEditRow(row) | object/int | 数据行的jQuery对象或行索引。 | 取消编辑行。 |
+| doSaveEditRow(row) | object/int | 数据行的jQuery对象或行索引。 | 保存编辑行。 |
+| delRows(rows) | int/string/object | 单个数据行的索引、逗号分隔的行索引字符串、数据行的jQuery对象 | 删除行。 |
+| saveAll() | -- | -- | 保存所有编辑行。 |
+| refresh() | -- | -- | 刷新，重新加载数据。 |
+| jumpPage(pageNum, [pageSize]) | int, int | 跳转页码(仅设置分页大小参数时，可设为null)，[可选参数，页大小] | 跳转到指定页码。 |
+| destroy() | -- | -- | 销毁datagrid。 |
+#### 取得选中行
         <blockquote class="point">$('table - selector').data('selectedTrs')</blockquote>
     </div>
 </div>
