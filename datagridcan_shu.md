@@ -63,26 +63,9 @@
 
 | 方法名 | 参数类型 | 参数说明 | 描述 |
 | -- | -- | -- | -- |
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>方法名</th>
-                    <th>参数类型</th>
-                    <th>参数说明</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | showLinenumber(flag) |
-                    | boolean/string |
-                    | true | false， 'lock' | 'unlock' |
-                    | 行号列：显示、隐藏、锁定、解除锁定。 |
-                </tr>
-                <tr>
-                    | showCheckboxcol(flag) |
-                    | boolean/string |
-                    | true | false， 'lock' | 'unlock' |
+| showLinenumber(flag) | boolean/string | true or false， 'lock' or 'unlock' | 行号列：显示、隐藏、锁定、解除锁定。 |
+| showCheckboxcol(flag) | boolean/string |
+                    | true or false， 'lock' or 'unlock' |
                     | 复选框列：显示、隐藏、锁定、解除锁定。 |
                 </tr>
                 <tr>
