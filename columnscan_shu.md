@@ -19,7 +19,7 @@
 | attrs | object | null  | [可选] *`F`* 编辑时，表单域的附加参数。示例：`{readonly:'readonly'}` |
 | rule | string | null | [可选] *`F`* 编辑时，表单域名的验证规则。示例：`required;length(6)` |
 | items | array/function | null | [可选] *`F`* 用于数据渲染或筛选\编辑时的select填充。<br />array示例：`[{'true':'男'}, {'false':'女'}],`<br />function示例：`function() {return $.getJSON('/datagrid/demo-items-state.js')}` |
-| render | function(value) | null | [可选] *`F`* 将列数据渲染成其他样式，方法参数value为datagrid数据提供的原始值。不显示空值示例：`function(value){return !value || value == 'null' ? '' : value}`，datagrid提供基于items的默认渲染：`$.datagrid.renderItem` |
+| render | function(value) | null | [可选] *`F`* 将列数据渲染成其他样式，方法参数value为datagrid数据提供的原始值。不显示空值示例：`function(value){return !value `&#124;&#124;`  value == 'null' ? '' : value}`，datagrid提供基于items的默认渲染：`$.datagrid.renderItem` |
                 </tr>
                 <tr>
                     | pattern |
