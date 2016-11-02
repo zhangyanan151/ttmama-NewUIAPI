@@ -79,9 +79,9 @@ $(selector).tabledit('add', target, num)
 | num | int | 1 | [可选] 每次添加的行数。 |
 
 
-
-> ```js
 <span id="jump">
+ ```js
+
 function(json) {
     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
         _doRead($tr)
@@ -89,9 +89,9 @@ function(json) {
         $tr.bjuiajax('ajaxDone', json)
     }
 }
- </span>
+
 ```
->
+ </span>
 
 
 
