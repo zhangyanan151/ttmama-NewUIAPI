@@ -13,16 +13,17 @@
 #### 状态改变事件
 更多事件及方法见插件官网
 **`示例代码：`**
-            <script type="text/javascript">
-                $('input[name="doc-check-t"]').on('ifChanged', function(e) {
-                    var checked = $(this).is(':checked'), val = $(this).val()
-                    
-                    if (checked)
-                        $(this).alertmsg('info', '你选择了'+ val)
-                    else
-                        $(this).alertmsg('info', '你取消了'+ val)
-                })
-            </script>
+```js
+$('input[name="doc-check-t"]').on('ifChanged', function(e) {
+    var checked = $(this).is(':checked'), val = $(this).val()
+
+    if (checked)
+        $(this).alertmsg('info', '你选择了'+ val)
+    else
+        $(this).alertmsg('info', '你取消了'+ val)
+})
+```
+            
             <input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
             <input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
             <input type="checkbox" name="doc-check-t" id="doc-check-t3" value="3000" data-toggle="icheck" data-label="3000">
