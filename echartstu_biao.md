@@ -14,14 +14,3 @@
 | url | string | null | [必选] 图表JSON数据调用地址 |
 | type | string | null | [必选] 图表类型，按需加载，如需两种图表类型切换，请用 ',' 隔开</br>可选类型：bar,chord,eventRiver,force,funnel,gauge,k,line,map,pie,radar,scatter，具体类型所对应的图形请查看[ECharts官网](http://echarts.baidu.com) |
 | theme | string | default | [可选] 图表主题，按需加载，可选主题：blue,dark,default,gray,green,helianthus,infographic,macarons,red,shine，具体颜色效果请查看[ECharts官网](http://echarts.baidu.com)</a> |
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
