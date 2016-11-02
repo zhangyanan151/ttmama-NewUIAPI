@@ -33,53 +33,17 @@
 | 名称 | 类型 | 描述 | 示例 |
 | -- | -- | -- | -- |
 | data-rule | string | [必选] 定义该字段的规则集 | data-rule="required; password" |
-| data-rule-* |
-                    | string |
-                    | [可选] 定义临时规则 |
-                    | data-rule-password="[/^\d{6}$/, '请填写6位数字']" |
-                </tr>
-                <tr>
-                    | data-msg-* |
-                    | string |
-                    | [可选] 更改了默认规则的消息 |
-                    | data-msg-required="请填写密码" |
-                </tr>
-                <tr>
-                    | data-tip |
-                    | string |
-                    | [可选] 当元素获得焦点时，显示友好信息 |
-                    | data-tip="请输入用户名" |
-                </tr>
-                <tr>
-                    | data-ok |
-                    | string |
-                    | [可选] 字段验证成功后显示的消息 |
-                    | data-ok="用户名可用" |
-                </tr>
-                <tr>
-                    | data-target |
-                    | selector |
-                    | [可选] 如果定义，将决定消息最终显示位置，如果selector是字段，则消息显示在字段的消息位置，否则显示在selector指定容器内。 |
-                    | data-target="#username" |
-                </tr>
-                <tr>
-                    | novalidate |
-                    | null |
-                    | [可选] 无值参数，指定该字段不需要验证。 |
-                    |  |
-                </tr>
-                <tr>
-                    | notimely |
-                    | boolean |
-                    | [可选] 值为true时，指定该字段不需要适时验证 `插件官网说是无值参数，经过测试不设为true则无效`。 |
-                    | notimely="true" |
-                </tr>
-            </tbody>
-        </table>
-        <h4>验证规则</h4>
-        <blockquote class="point">
-            <p><strong>如何验证：</strong>为字段添加属性`data-rule="规则"`即可，多条规则以`;`分隔。<br>
-                `更多规则：`请查看插件官网：<a href="http://niceue.com/validator/demo/" target="_blank">http://niceue.com/validator/demo/</a> 或查看代码文件： `/BJUI/js/bjui-regional.zh-CN.js`
+| data-rule-\* | string | [可选] 定义临时规则 | data-rule-password="[/^\d{6}$/, '请填写6位数字']" |
+| data-msg-\* | string | [可选] 更改了默认规则的消息 | data-msg-required="请填写密码" |
+| data-tip | string | [可选] 当元素获得焦点时，显示友好信息 | data-tip="请输入用户名" |
+| data-ok | string | [可选] 字段验证成功后显示的消息 | data-ok="用户名可用" |
+| data-target | selector | [可选] 如果定义，将决定消息最终显示位置，如果selector是字段，则消息显示在字段的消息位置，否则显示在selector指定容器内。 | data-target="#username" |
+| novalidate | null | [可选] 无值参数，指定该字段不需要验证。 ||
+| notimely | boolean | [可选] 值为true时，指定该字段不需要适时验证 `插件官网说是无值参数，经过测试不设为true则无效`。 | notimely="true" |
+#### 验证规则
+**如何验证：**为字段添加属性`data-rule="规则"`即可，多条规则以`;`分隔。
+
+`更多规则：`请查看插件官网：[http://niceue.com/validator/demo/](http://niceue.com/validator/demo/) 或查看代码文件： `/BJUI/js/bjui-regional.zh-CN.js`
             </p>
         </blockquote>
         <form>
