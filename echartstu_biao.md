@@ -9,6 +9,11 @@
 **`图表数据：`**图表的JSON数据通过AJAX调用，data-url参数值为图表JSON数据调用地址，Demo演示中的图表JSON数据请进入对应的html文件查看
 #### 参数（options）
 
+| 名称 | 类型 | 默认值 | 描述 |
+| -- | -- | -- | -- |
+| 0:2 | 1:2 | 2:2 | 3:2 |
+| 0:3 | 1:3 | 2:3 | 3:3 |
+| 0:4 | 1:4 | 2:4 | 3:4 |
 
         <table class="table table-bordered table-striped table-hover">
             <thead>
