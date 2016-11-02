@@ -62,14 +62,3 @@ function ztree_returnjson() {
 | onRemove | function(event, treeId, treeNode) | null | 用于捕获删除节点之后的事件回调函数。 |
 | onCheck | function(event, treeId, treeNode) | null | 用于捕获 checkbox / radio 被勾选 或 取消勾选的事件回调函数 |
 | `setting` | object | null | 用于定义更多的zTree参数，更多参数请查看zTree API：[http://www.ztree.me/v3/api.php](http://www.ztree.me/v3/api.php) |
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
