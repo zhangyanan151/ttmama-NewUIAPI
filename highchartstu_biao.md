@@ -15,19 +15,7 @@
 
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
-| 0:2 | 1:2 | 2:2 | 3:2 |
-
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>默认值</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
+| url | string | null | [必选] 图表JSON数据调用地址 |
                     <td>url</td>
                     <td>string</td>
                     <td>null</td>
