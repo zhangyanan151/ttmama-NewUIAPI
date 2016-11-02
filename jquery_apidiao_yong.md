@@ -19,6 +19,7 @@ $('a.api-test').click(function() {
 $(selector).dialog({id:'mydialog', url:'doc/base/mydialog.html', title:'测试弹窗'}).text('OK')
 ```
 `selector`是符合jQuery规范的选择器。
+
 #### `组件的初始化：`
 本框架的内置组件通过如下方式进行初始化，以及调用开放的方法。
 
