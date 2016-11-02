@@ -3,6 +3,8 @@
 本节介绍datagrid组件的参数及方法。
 #### 参数（options）
 * DOM方式初始化datagrid的，推荐使用集合属性`data-options`定义参数，如果使用`data属性`定义参数，注意转换成对应的名称，参见[data属性]()一节。
+
+| 名称 | 类型 | 默认值 | 描述 |
         </blockquote>
         <table class="table table-bordered table-striped table-hover">
             <thead>
