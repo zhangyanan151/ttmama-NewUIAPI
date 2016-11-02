@@ -28,7 +28,7 @@ $(selector).bjuiajax('doExport', options)
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doajaxchecked" data-group="delids" data-confirm-msg="确定要删除选中项吗？">批量删除动作</a>
 ```
 jQuery API:
-```javascript
+```js
 $(selector).bjuiajax('doAjaxChecked', options)
 ```
 * **doExportChecked(适用于 `选中项导出`)**：
