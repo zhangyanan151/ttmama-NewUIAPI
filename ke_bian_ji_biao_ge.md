@@ -41,7 +41,8 @@
 </table>
 ```
 * jQuery API：
-            $(table).tabledit(options)
+       $(table).tabledit(options)
+       
 ### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
@@ -71,7 +72,7 @@
 <button type="button" class="btn-green" data-toggle="tableditadd" data-target="#tabledit-id" data-num="1" data-icon="plus">添加编辑行</button>
 ```
 * jQuery API：
-```javascript
+```js
 $(selector).tabledit('add', target, num)
 ```
 ##### 参数
