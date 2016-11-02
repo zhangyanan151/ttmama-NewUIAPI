@@ -52,12 +52,7 @@
 | match[name] | 两个字段匹配 | <code><input type="text" name="doc-validate-p1" size="5" data-rule="密码:required"></code> <br /><code><input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)"></code> |
 | digits | 整数 | <code><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></code> |
 | number | 数字 | <code><input type="text" name="doc-validate-d2" size="10" data-rule="number"></code> |
-                </tr>
-                <tr>
-                    | mobile |
-                    | 手机号 |
-                    | <input type="text" name="doc-validate-m1" size="10" data-rule="mobile"> |
-                    | <pre class="brush:html"><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></pre> |
+| mobile | 手机号 | <code><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></code> |
                 </tr>
                 <tr>
                     | email |
