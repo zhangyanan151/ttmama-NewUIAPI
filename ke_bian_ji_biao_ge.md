@@ -51,7 +51,7 @@
 | action | string | null | [可选] 点完成或保存按钮后处理数据的服务端url。 |
 | type | string | POST | [可选] 提交数据的方式。 |
 | singleNoindex | boolean | false | [可选] 提交单行数据时，下标的index为0。 |
-| callback | function(json) |  | [可选] 回调函数。 |
+| callback | function(json) | :[^1] | [可选] 回调函数。 |
 | idname | string | id | `适用于 thead -> tr`[可选] 定义行数据的主键名称（id的name）。 |
 | id | string | null | `适用于 tbody -> tr`[可选] 定义行数据的主键值（id的值）。 |
 | addtool | boolean | false | `适用于 thead -> th`[可选] 表头列显示添加行控件。 |
@@ -78,11 +78,13 @@ $(selector).tabledit('add', target, num)
 | target | selector | null | [必选] 需要添加行的目标表格选择器。 |
 | num | int | 1 | [可选] 每次添加的行数。 |
 
-"function(json) {
+
+[^1]: 
+function(json) {
                                     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
                                         _doRead($tr)
                                     } else {
                                         $tr.bjuiajax('ajaxDone', json)
                                     }
-                                }"
+                                }
 
