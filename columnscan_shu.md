@@ -29,12 +29,6 @@
 | lock | boolean | false | [可选] *`F`* 是否锁定该列(尽量不用，影响速度)。 |
 | quicksort | boolean | true | [可选] *`F<`* 允许点击该列进行快速排序。 |
 #### 示例代码
-        <ul class="nav nav-tabs" role="tablist" style="margin:0;">
-            <li class="active"><a href="#datagrid-columns-demo1" role="tab" data-toggle="tab"></a></li>
-            <li><a href="#datagrid-columns-demo2" role="tab" data-toggle="tab"></a></li>
-            <li><a href="#datagrid-columns-demo3" role="tab" data-toggle="tab">HTML简
-            <li><a href="#datagrid-columns-demo4" role="tab" data-toggle="tab">HTML多表头</a></li>
-        </ul>
 * 简单列模型
 ```js
 [
