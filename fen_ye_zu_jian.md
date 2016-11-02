@@ -28,7 +28,7 @@
 <div class="pagination-box" data-toggle="pagination" data-total="10" data-page-size="5" data-page-current="1"></div>
 ```
 * jQuery API：
-            $(div).pagination(options)
+      $(div).pagination(options)
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
