@@ -17,7 +17,7 @@
 <a href="javascript:;" data-toggle="reloadsearch" data-clear-query="true">清空查询</a>
 ```
 * jQuery API：
-```javascript
+```js
 $(form).bjuiajax('doSearch', options)
 ```
 
