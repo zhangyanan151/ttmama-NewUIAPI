@@ -44,8 +44,9 @@
 **如何验证：**为字段添加属性`data-rule="规则"`即可，多条规则以`;`分隔。
 
 `更多规则：`请查看插件官网：[http://niceue.com/validator/demo/](http://niceue.com/validator/demo/) 或查看代码文件： `/BJUI/js/bjui-regional.zh-CN.js`
-            </p>
-        </blockquote>
+
+| 规则 | 描述 | 示例 | 示例代码 |
+| -- | -- | -- | -- |
         <form>
         <table class="table table-bordered table-striped table-hover">
             <thead>
