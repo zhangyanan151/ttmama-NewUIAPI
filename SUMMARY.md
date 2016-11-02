@@ -46,7 +46,7 @@
 * 图表报文
    * [HighCharts图表](highchartstu_biao.md)
    * [ECharts图表](echartstu_biao.md)
-* 引用的其他插件
+* [引用的其他插件](yin_yong_de_qi_ta_cha_jian.md)
    * [zTree](ztree.md)
    * [复选/单选](fu_9009_dan_xuan.md)
    * [下拉选择框](xia_la_xuan_ze_kuang.md)
