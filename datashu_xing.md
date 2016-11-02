@@ -8,10 +8,13 @@
   `maxAddLevel` --> `data-max-add-level`
   
 * 以下是data属性应用示例（打开一个navtab标签）：
-      <a href="form.html" data-toggle="navtab" data-id="navtab-form" data-title="表单应用">打开一个表单应用的navtab</a>
-        </pre>
+ ```html
+<a href="form.html" data-toggle="navtab" data-id="navtab-form" data-title="表单应用">打开一个表单应用的navtab</a>
+```
 * 点击上面的a链接后，将打开一个名为“表单应用”的navtab，其效果等同下面的js：
-      $(selector).navtab({id:'navtab-form', url:'form.html', title:'表单应用'})
+```js
+$(selector).navtab({id:'navtab-form', url:'form.html', title:'表单应用'})
+```
 * `selector`是符合jQuery规范的选择器。
 
   1. 为了方便使用，如无特殊说明，`selector`可以是任意元素的选择器(不确定或在直接定义的function中，使用`$(this)`>即可)，
