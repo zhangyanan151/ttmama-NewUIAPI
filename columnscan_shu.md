@@ -8,22 +8,7 @@
 
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
-        </blockquote>
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>默认值</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | name |
-                    | string |
-                    | null |
-                    | [可选] <span class="badge"><i>F</i></span> 该列字段名(关联json数据、xml数据、编辑及保存的数据)。`未设置name将不能进行添加\编辑等操作` |
+| name | string | null | [可选] *`F`* 该列字段名(关联json数据、xml数据、编辑及保存的数据)。`未设置name将不能进行添加\编辑等操作` |
                 </tr>
                 <tr>
                     | label |
