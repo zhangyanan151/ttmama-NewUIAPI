@@ -44,7 +44,8 @@ function openMytab(obj) {
 ```
 * jQuery API代码：
       $(selector).navtab(options)
-**说明**
+      
+**说明：**
   1. 取得当前navtab的内容容器：`$.CurrentNavtab`
   2. 创建已存在相同ID的navtab时，如果url一致(未设置`fresh`参数时)，默认会直接切换到该navtab，否则覆盖已存在的navtab，可以增加`reloadWarn`参数以获得警告提醒
 
