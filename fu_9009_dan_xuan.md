@@ -13,7 +13,6 @@
 #### 状态改变事件
 更多事件及方法见插件官网
 **`示例代码：`**
-        <pre class="brush: js; html-script: true">
             <script type="text/javascript">
                 $('input[name="doc-check-t"]').on('ifChanged', function(e) {
                     var checked = $(this).is(':checked'), val = $(this).val()
