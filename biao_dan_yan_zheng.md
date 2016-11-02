@@ -32,12 +32,7 @@
 
 | 名称 | 类型 | 描述 | 示例 |
 | -- | -- | -- | -- |
-            <tbody>
-                <tr>
-                    | data-rule |
-                    | string |
-                    | [必选] 定义该字段的规则集 |
-                    | data-rule="required; password" |
+| data-rule | string | [必选] 定义该字段的规则集 | data-rule="required; password" |
                 </tr>
                 <tr>
                     | data-rule-* |
