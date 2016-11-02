@@ -17,13 +17,8 @@
 | add | boolean | true | [可选] *`F`* 允许该列添加数据。 |
 | edit | boolean | true | [可选] *`F<`* 允许该列编辑数据。 |
 | attrs | object | null  | [可选] *`F`* 编辑时，表单域的附加参数。示例：`{readonly:'readonly'}` |
-| rule | string | null || [可选] *`F`* 编辑时，表单域名的验证规则。示例：`required;length(6)` |
-                </tr>
-                <tr>
-                    | items |
-                    | array/function |
-                    | null |
-                    | [可选] <span class="badge"><i>F</i></span> 用于数据渲染或筛选\编辑时的select填充。array示例：`[{'true':'男'}, {'false':'女'}],`，function示例：`function() {return $.getJSON('/datagrid/demo-items-state.js')}` |
+| rule | string | null | [可选] *`F`* 编辑时，表单域名的验证规则。示例：`required;length(6)` |
+| items | array/function | null | [可选] *`F`* 用于数据渲染或筛选\编辑时的select填充。<br />array示例：`[{'true':'男'}, {'false':'女'}],`<br />function示例：`function() {return $.getJSON('/datagrid/demo-items-state.js')}` |
                 </tr>
                 <tr>
                     | render |
