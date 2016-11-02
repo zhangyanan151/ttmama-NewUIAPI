@@ -6,8 +6,8 @@
 ```html
 <div style="min-width:400px;height:350px" data-toggle="highcharts" data-url="chart-lineData.html"></div>
 ```
-            <code>图表数据：</code>图表的JSON数据通过AJAX调用，data-url参数值为图表JSON数据调用地址，Demo演示中的图表JSON数据请进入对应的html文件查看<br>
-            <code>图表主题：</code>设置图表主题，在index.html中引入BJUI/plugins/highcharts/themes下对应的js主题文件即可，例如：
+**`图表数据：`**图表的JSON数据通过AJAX调用，data-url参数值为图表JSON数据调用地址，Demo演示中的图表JSON数据请进入对应的html文件查看<br>
+**`图表主题：`**设置图表主题，在index.html中引入BJUI/plugins/highcharts/themes下对应的js主题文件即可，例如：
             <pre class="brush: html"><script src="BJUI/plugins/highcharts/themes/dark-unica.js"></script></pre>
         </blockquote>
 
