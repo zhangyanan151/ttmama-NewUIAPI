@@ -23,18 +23,10 @@ $('input[name="doc-check-t"]').on('ifChanged', function(e) {
         $(this).alertmsg('info', '你取消了'+ val)
 })
 ```
-            
-            <input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
-            <input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
-            <input type="checkbox" name="doc-check-t" id="doc-check-t3" value="3000" data-toggle="icheck" data-label="3000">
-            <input type="checkbox" name="doc-check-t" id="doc-check-t4" value="4000" data-toggle="icheck" data-label="4000">
-            <input type="checkbox" name="doc-check-t" id="doc-check-t5" value="5000" data-toggle="icheck" data-label="5000">
-        </pre>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+```html
+<input type="checkbox" name="doc-check-t" id="doc-check-t1" value="1000" data-toggle="icheck" data-label="1000">
+<input type="checkbox" name="doc-check-t" id="doc-check-t2" value="2000" data-toggle="icheck" data-label="2000">
+<input type="checkbox" name="doc-check-t" id="doc-check-t3" value="3000" data-toggle="icheck" data-label="3000">
+<input type="checkbox" name="doc-check-t" id="doc-check-t4" value="4000" data-toggle="icheck" data-label="4000">
+<input type="checkbox" name="doc-check-t" id="doc-check-t5" value="5000" data-toggle="icheck" data-label="5000">
+```
