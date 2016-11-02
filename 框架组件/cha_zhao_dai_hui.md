@@ -10,23 +10,23 @@ $('lookupbtn').data('newurl', 'new url')                            //直接修�
 #### 初始化
 * Data属性：input添加属性`data-toggle="lookup"` 或 点击含有属性`data-toggle="lookupbtn"`的元素触发。
 
-*`DOM示例1：`*
-
-示例代码：
+  *`DOM示例1：`*
+  
+  示例代码：
 ```html
 <label>PID:</label><input type="text" name="pid" size="5">
 <label>查找名称：</label><input type="text" data-toggle="lookup" data-url="doc/form/mylookup.html" name="name" size="10">
 ```
 *`DOM示例2：`*
 
-示例代码：
+  示例代码：
 ```html
 <label>PID:</label><input type="text" name="t2.pid" size="5">
 <label>查找名称：</label><input type="text" name="t2.name" size="10"> <a href="doc/form/mylookup.html" data-toggle="lookupbtn" data-group="t2">打开Lookup窗口</a>
 ```
 * jQuery API：
 
-```
+```js
 $(input).lookup(options)
 ```
 #### 参数（options）
@@ -50,7 +50,7 @@ $(input).lookup(options)
 | afterchange.bjui.lookup | 带回值后的事件 | 监听该事件，可以在input取得返回值后进行相关操作。 |
 * 这样监听lookup的事件：`mylookup - selector`表示lookup赋值了的input选择器
 
-```javascript
+```js
 $('mylookup - selector').on('afterchange.bjui.lookup', function(e, data) {
     var myvalue = data.value
 
