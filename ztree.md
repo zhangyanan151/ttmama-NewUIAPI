@@ -23,16 +23,14 @@
     <li data-id="11" data-pid="1" data-url="form-input.html" data-tabid="form-input" data-faicon="info-circle">文本框</li>
 </ul>
 ```
-            <li>jQuery API：<a href="http://www.ztree.me/v3/api.php" target="_blank">http://www.ztree.me/v3/api.php</a></li>
-        </ul>
-        <blockquote class="point">
-            <p>考虑到nodes定义的JSON数据写到HTML中可能会破坏DOM结构， nodes参数支持定义为方法名，该方法返回需要的JSON数据。例：</p>
-            <pre class="brush: js; html-script: true">
-                <script type="text/javascript">
-                    function ztree_returnjson() {
-                        return [{id:1,pid:0,name:'表单元素',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]
-                    }
-                </script>
+jQuery API：[http://www.ztree.me/v3/api.php](http://www.ztree.me/v3/api.php)
+***
+* 考虑到nodes定义的JSON数据写到HTML中可能会破坏DOM结构， nodes参数支持定义为方法名，该方法返回需要的JSON数据。例：
+```js
+function ztree_returnjson() {
+    return [{id:1,pid:0,name:'表单元素',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]
+}
+```
                 <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:'ztree_returnjson'}"></ul>
             </pre>
         </blockquote>
