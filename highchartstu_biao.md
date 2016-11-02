@@ -8,10 +8,15 @@
 ```
 **`图表数据：`**图表的JSON数据通过AJAX调用，data-url参数值为图表JSON数据调用地址，Demo演示中的图表JSON数据请进入对应的html文件查看<br>
 **`图表主题：`**设置图表主题，在index.html中引入BJUI/plugins/highcharts/themes下对应的js主题文件即可，例如：
-            <pre class="brush: html"><script src="BJUI/plugins/highcharts/themes/dark-unica.js"></script></pre>
-        </blockquote>
+```js
+<script src="BJUI/plugins/highcharts/themes/dark-unica.js"></script>
+```
+#### 参数（options）
 
-        <h4>参数（options）</h4>
+| 名称 | 类型 | 默认值 | 描述 |
+| -- | -- | -- | -- |
+| 0:2 | 1:2 | 2:2 | 3:2 |
+
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
