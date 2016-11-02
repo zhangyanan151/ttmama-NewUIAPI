@@ -31,7 +31,7 @@
 #### 示例代码
         <ul class="nav nav-tabs" role="tablist" style="margin:0;">
             <li class="active"><a href="#datagrid-columns-demo1" role="tab" data-toggle="tab"></a></li>
-            <li><a href="#datagrid-columns-demo2" role="tab" data-toggle="tab">多表头模型</a></li>
+            <li><a href="#datagrid-columns-demo2" role="tab" data-toggle="tab"></a></li>
             <li><a href="#datagrid-columns-demo3" role="tab" data-toggle="tab">HTML简单表头</a></li>
             <li><a href="#datagrid-columns-demo4" role="tab" data-toggle="tab">HTML多表头</a></li>
         </ul>
@@ -65,51 +65,50 @@
       }
   ]
 ```
+* 多表头模型
+```js
+[
+      {
+          name: 'operation',
+          label: '类型',
+          type : 'select',
+          items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
+          align: 'center',
+          width: 80,
+          render: $.datagrid.renderItem
+      },
+      {
+          name: 'name',
+          label: '姓名',
+          align: 'center',
+          width: 100,
+          rule: 'required'
+      },
+      {
+          label: '拼音姓名',
+          columns: [{
+              name: 'firstname',
+              label: '拼音姓',
+              width: 80
+          },{
+              name: 'lastname',
+              label: '拼音名',
+              width: 80,
+              hide : true
+          }]
+      },
+      {
+          name: 'sex',
+          label: '性别',
+          type: 'select',
+          items: [{'true':'男'}, {'false':'女'}],
+          align: 'center',
+          width: 40,
+          render: $.datagrid.renderItem
+      }
+  ]
+```
                     
-                </pre>
-            </div>
-            <div class="tab-pane fade" id="datagrid-columns-demo2">
-                <pre class="brush: js; html-script: true">
-                    [
-                        {
-                            name: 'operation',
-                            label: '类型',
-                            type : 'select',
-                            items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
-                            align: 'center',
-                            width: 80,
-                            render: $.datagrid.renderItem
-                        },
-                        {
-                            name: 'name',
-                            label: '姓名',
-                            align: 'center',
-                            width: 100,
-                            rule: 'required'
-                        },
-                        {
-                            label: '拼音姓名',
-                            columns: [{
-                                name: 'firstname',
-                                label: '拼音姓',
-                                width: 80
-                            },{
-                                name: 'lastname',
-                                label: '拼音名',
-                                width: 80,
-                                hide : true
-                            }]
-                        },
-                        {
-                            name: 'sex',
-                            label: '性别',
-                            type: 'select',
-                            items: [{'true':'男'}, {'false':'女'}],
-                            align: 'center',
-                            width: 40,
-                            render: $.datagrid.renderItem
-                        }
-                    ]
                 </pre>
             </div>
             <div class="tab-pane fade" id="datagrid-columns-demo3">
