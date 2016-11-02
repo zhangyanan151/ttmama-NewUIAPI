@@ -6,28 +6,8 @@
 
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
-        </blockquote>
-        <table class="table table-bordered table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>名称</th>
-                    <th>类型</th>
-                    <th>默认值</th>
-                    <th>描述</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    | gridTitle |
-                    | string |
-                    | null |
-                    | [可选] 标题。 |
-                </tr>
-                <tr>
-                    | columns |
-                    | array |
-                    | null |
-                    | [可选] 表头模型，适用动态生成表头，如果未设置本参数，将自动转化静态表头为模型。<a href="doc/datagrid/datagrid-columns.html" data-toggle="navtab" data-options="{id:'doc-datagrid-columns', title:'columns参数'}">点此查看columns对象的详细参数</a> |
+| gridTitle | string | null | [可选] 标题。 |
+| columns | array | null | [可选] 表头模型，适用动态生成表头，如果未设置本参数，将自动转化静态表头为模型。<a href="doc/datagrid/datagrid-columns.html" data-toggle="navtab" data-options="{id:'doc-datagrid-columns', title:'columns参数'}">点此查看columns对象的详细参数</a> |
                 </tr>
                 <tr>
                     | data |
