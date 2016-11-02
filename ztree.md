@@ -11,20 +11,18 @@
 **`DOM示例2：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，然后使用集合属性`data-options`定义JSON数据及其他参数。
 
 *示例代码：*
-                <pre class="brush: html">
-                    <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]}"></ul>
-                </pre>
-            </li>
-            <li><span class="label label-default">DOM示例3：</span>ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，使用li元素定义要展示的数据。<br>
-                <p>示例代码：</p>
-                <pre class="brush: html">
-                    <ul id="ztree-test-demo3" class="ztree" data-toggle="ztree">
-                        <li data-id="1" data-pid="0" data-faicon="rss" data-faicon-close="cab">表单元素</li>
-                        <li data-id="10" data-pid="1" data-url="form-button.html" data-tabid="form-button" data-faicon="bell">按钮</li>
-                        <li data-id="11" data-pid="1" data-url="form-input.html" data-tabid="form-input" data-faicon="info-circle">文本框</li>
-                    </ul>
-                </pre>
-            </li>
+```html
+<ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]}"></ul>
+```
+**`DOM示例3：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，使用li元素定义要展示的数据。
+*示例代码：*
+```html
+<ul id="ztree-test-demo3" class="ztree" data-toggle="ztree">
+    <li data-id="1" data-pid="0" data-faicon="rss" data-faicon-close="cab">表单元素</li>
+    <li data-id="10" data-pid="1" data-url="form-button.html" data-tabid="form-button" data-faicon="bell">按钮</li>
+    <li data-id="11" data-pid="1" data-url="form-input.html" data-tabid="form-input" data-faicon="info-circle">文本框</li>
+</ul>
+```
             <li>jQuery API：<a href="http://www.ztree.me/v3/api.php" target="_blank">http://www.ztree.me/v3/api.php</a></li>
         </ul>
         <blockquote class="point">
