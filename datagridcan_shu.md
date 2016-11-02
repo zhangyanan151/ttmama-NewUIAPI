@@ -33,7 +33,7 @@
 | columnFilter | boolean | true | [可选] 表头字段列菜单上出现 “过滤” 选项。 |
 | columnLock | boolean | true | [可选] 表头字段列菜单上出现 “锁定列、解除锁定” 选项。 |
 | paging | boolean/object | true | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：`{pageSize:30, selectPageSize:'30,60,90', pageCurrent:1, showPagenum:5, total:0}`<br>`如果local='remote'，并通过dataUrl参数请求json数据时，返回的数据要提供total、pageCurrent参数，可提供pageSize参数`|
-| pagingAlign | string | center | [可选] 分页组件对齐方式，参数['left' | 'center' | 'right'] |
+| pagingAlign | string | center | [可选] 分页组件对齐方式，参数['left' 、 'center' 、 'right'] |
 | editUrl | string | null | [可选] 保存编辑、添加数据的url，Ajax请求方式为POST，服务器端接收的参数名称为"json"，数据类型是JSON Array。 |
 | editCallback | function(json) | null | [可选] 保存成功后的回调，返回的json内容可以是B-JUI默认的回调json或保存后的json数据，`datagrid默认回调：如果返回保存后的json数据，将会更新对应的数据行`。 |
 | editMode | string | inline | [可选] 编辑、添加数据的方式，参数[false 、 'inline' 、 'dialog']。false = 不能编辑，inline = 行内编辑，dialog = 弹窗编辑。 |
@@ -45,93 +45,20 @@
 | delType | string | POST | [可选] Ajax删除数据的请求方式。 |
 | delPK | string | null | [可选] 设置删除主键名，如果设置了主键，则只发送该字段的值(删除多条则主键值以逗号分隔)到服务器端，否则发送JSON数据（参数名"json"，数据类型为JSON Array）。 |
 | delConfirm | boolean/string | null | [可选] 删除前的确认提示，参数[true 、 false 、 '自定义提示信息']，参数为false时不弹出提示信息。 |
-                </tr>
-                <tr>
-                    | delCallback |
-                    | function(json) |
-                    | null |
-                    | [可选] 删除成功后的回调函数，返回的json内容为B-JUI默认的回调json。 |
-                </tr>
-                <tr>
-                    | jsonPrefix |
-                    | string |
-                    | null |
-                    | [可选] 发送到服务器端的json数据(name)加前缀，包括(保存、删除、筛选)操作。 |
-                </tr>
-                <tr>
-                    | contextMenuH |
-                    | boolean |
-                    | true |
-                    | [可选] 在表头上右键点击时出现 ”显示/隐藏列“ 的快捷菜单。 |
-                </tr>
-                <tr>
-                    | contextMenuB |
-                    | boolean |
-                    | false |
-                    | [可选] 在数据行右键点击时出现快捷菜单，菜单选项有(刷新、添加、编辑、取消、删除)。 |
-                </tr>
-                <tr>
-                    | hScrollbar |
-                    | boolean |
-                    | false |
-                    | [可选] 允许出现横向滚动条。 |
-                </tr>
-                <tr>
-                    | fullGrid |
-                    | boolean |
-                    | false |
-                    | [可选] 使表格铺满网格容器(如果值为true，则需要设置有列宽，并且总宽度小于datagrid容器宽度时有效)。 |
-                </tr>
-                <tr>
-                    | width |
-                    | int/percent |
-                    | null |
-                    | [可选] datagrid容器宽度，默认为父容器的宽，相当于'100%'。 |
-                </tr>
-                <tr>
-                    | height |
-                    | int/percent |
-                    | 300 |
-                    | [可选] datagrid容器高度。 |
-                </tr>
-                <tr>
-                    | importOption |
-                    | object |
-                    | null |
-                    | [可选] 工具栏的导入按钮参数，dialog或navtab方式打开导入页面，参数模板`{type:"dialog", options:{url:'', width:400, height:200}}` |
-                </tr>
-                <tr>
-                    | exportOption |
-                    | object |
-                    | null |
-                    | [可选] 工具栏的导出按钮参数，执行ajax url或以dialog or navtab方式打开导出页面，参数模板`{type:"ajax", options:{url:""}}` |
-                </tr>
-                <tr>
-                    | beforeEdit |
-                    | function |
-                    | null |
-                    | [可选] 带返回值方法，编辑数据前调用，返回true继续编辑，返回false取消编辑。 |
-                </tr>
-                <tr>
-                    | beforeDelete |
-                    | function |
-                    | null |
-                    | [可选] 带返回值方法，删除数据前调用，返回true继续删除，返回false取消删除。 |
-                </tr>
-                <tr>
-                    | afterSave |
-                    | function($trs, datas) |
-                    | null |
-                    | [可选] 保存成功后执行方法，参数$trs为保存行(jQuery 对象)，datas为保存行对应数据(JSON Array)。 |
-                </tr>
-                <tr>
-                    | afterDelete |
-                    | function |
-                    | null |
-                    | [可选] 删除成功后执行方法。 |
-                </tr>
-            </tbody>
-        </table>
+| delCallback | function(json) | null | [可选] 删除成功后的回调函数，返回的json内容为B-JUI默认的回调json。 |
+| jsonPrefix | string | null | [可选] 发送到服务器端的json数据(name)加前缀，包括(保存、删除、筛选)操作。 |
+| contextMenuH | boolean | true | [可选] 在表头上右键点击时出现 ”显示/隐藏列“ 的快捷菜单。 |
+| contextMenuB | boolean | false | [可选] 在数据行右键点击时出现快捷菜单，菜单选项有(刷新、添加、编辑、取消、删除)。 |
+| hScrollbar | boolean | false | [可选] 允许出现横向滚动条。 |
+| fullGrid | boolean | false | [可选] 使表格铺满网格容器(如果值为true，则需要设置有列宽，并且总宽度小于datagrid容器宽度时有效)。 |
+| width | int/percent | null | [可选] datagrid容器宽度，默认为父容器的宽，相当于'100%'。 |
+| height | int/percent | 300 | [可选] datagrid容器高度。 |
+| importOption | object | null | [可选] 工具栏的导入按钮参数，dialog或navtab方式打开导入页面，参数模板`{type:"dialog", options:{url:'', width:400, height:200}}` |
+| exportOption | object | null | [可选] 工具栏的导出按钮参数，执行ajax url或以dialog or navtab方式打开导出页面，参数模板`{type:"ajax", options:{url:""}}` |
+| beforeEdit | function | null | [可选] 带返回值方法，编辑数据前调用，返回true继续编辑，返回false取消编辑。 |
+| beforeDelete | function | null | [可选] 带返回值方法，删除数据前调用，返回true继续删除，返回false取消删除。 |
+| afterSave | function($trs, datas) | null | [可选] 保存成功后执行方法，参数$trs为保存行(jQuery 对象)，datas为保存行对应数据(JSON Array)。 |
+| afterDelete | function | null | [可选] 删除成功后执行方法。 |
         <h4>方法</h4>
         <table class="table table-bordered table-striped table-hover">
             <thead>
