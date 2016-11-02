@@ -10,12 +10,7 @@
 | columns | array | null | [可选] 表头模型，适用动态生成表头，如果未设置本参数，将自动转化静态表头为模型。<a href="doc/datagrid/datagrid-columns.html" data-toggle="navtab" data-options="{id:'doc-datagrid-columns', title:'columns参数'}">点此查看columns对象的详细参数</a> |
 | dataUrl | string | null | [可选] Ajax请求数据的URL。返回数据模板:![](assets/datagrid_options1.png) |
 | data | array | null | [可选] 提供datagrid需要的数据，如果同时设置有`dataUrl`参数，本参数优先级高。 |
-                </tr>
-                <tr>
-                    | loadType |
-                    | string |
-                    | POST |
-                    | [可选] Ajax请求方式。 |
+| loadType | string | POST | [可选] Ajax请求方式。 |
                 </tr>
                 <tr>
                     | dataType |
