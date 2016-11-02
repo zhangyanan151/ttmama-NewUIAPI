@@ -41,30 +41,10 @@
 | inlineEditMult | boolean | true | [可选] 允许行内编辑模式下同时添加/编辑多行。 |
 | saveAll | boolean | true | [可选] 适用于多行行内编辑时，一次性保存全部数据，发送到服务器端数据格式见参数`editUrl`。 |
 | addLocation | string | first | [可选] 添加新行数据于当前页的位置，参数['first' 、 'last' 、 'prev' 、 'next']，参数prev和next参考当前选中行位置。 |
-                </tr>
-                <tr>
-                    | delUrl |
-                    | string |
-                    | null |
-                    | [可选] 删除数据的url，服务器端接收的数据见参数`delPK` |
-                </tr>
-                <tr>
-                    | delType |
-                    | string |
-                    | POST |
-                    | [可选] Ajax删除数据的请求方式。 |
-                </tr>
-                <tr>
-                    | delPK |
-                    | string |
-                    | null |
-                    | [可选] 设置删除主键名，如果设置了主键，则只发送该字段的值(删除多条则主键值以逗号分隔)到服务器端，否则发送JSON数据（参数名"json"，数据类型为JSON Array）。 |
-                </tr>
-                <tr>
-                    | delConfirm |
-                    | boolean/string |
-                    | null |
-                    | [可选] 删除前的确认提示，参数[true | false | '自定义提示信息']，参数为false时不弹出提示信息。 |
+| delUrl | string | null | [可选] 删除数据的url，服务器端接收的数据见参数`delPK` |
+| delType | string | POST | [可选] Ajax删除数据的请求方式。 |
+| delPK | string | null | [可选] 设置删除主键名，如果设置了主键，则只发送该字段的值(删除多条则主键值以逗号分隔)到服务器端，否则发送JSON数据（参数名"json"，数据类型为JSON Array）。 |
+| delConfirm | boolean/string | null | [可选] 删除前的确认提示，参数[true 、 false 、 '自定义提示信息']，参数为false时不弹出提示信息。 |
                 </tr>
                 <tr>
                     | delCallback |
