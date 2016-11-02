@@ -1,7 +1,6 @@
 ### 弹窗工作区(dialog)
 ***
-
-* 弹出窗口分为普通弹出窗口和模态弹出窗口，普通弹出窗口可通过taskBar组件进行最小化等操作。弹出窗口的DOM结构会放入主页面的`body`中，结构如下：
+弹出窗口分为普通弹出窗口和模态弹出窗口，普通弹出窗口可通过taskBar组件进行最小化等操作。弹出窗口的DOM结构会放入主页面的`body`中，结构如下：
 ```html
 <div class="bjui-dialog bjui-dialog-container">
     <div class="dialogHeader">
