@@ -81,7 +81,6 @@ $(selector).tabledit('add', target, num)
 
 <span id="jump"></span>
  ```js
-
 function(json) {
     if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
         _doRead($tr)
@@ -89,7 +88,6 @@ function(json) {
         $tr.bjuiajax('ajaxDone', json)
     }
 }
-
 ```
 
 
