@@ -32,10 +32,7 @@
 | columnShowhide | boolean | true | [可选] 表头字段列菜单上出现 “显示/隐藏 列” 选项。 |
 | columnFilter | boolean | true | [可选] 表头字段列菜单上出现 “过滤” 选项。 |
 | columnLock | boolean | true | [可选] 表头字段列菜单上出现 “锁定列、解除锁定” 选项。 |
-| paging | boolean/object | true | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：
-                        `{pageSize:30, selectPageSize:'30,60,90', pageCurrent:1, showPagenum:5, total:0}`<br>
-                        `如果local='remote'，并通过dataUrl参数请求json数据时，返回的数据要提供total、pageCurrent参数，可提供pageSize参数`
-                     |
+| paging | boolean/object | true | [可选] 是否显示分页组件，可设置分页参数。分页参数模板：`{pageSize:30, selectPageSize:'30,60,90', pageCurrent:1, showPagenum:5, total:0}`<br>`如果local='remote'，并通过dataUrl参数请求json数据时，返回的数据要提供total、pageCurrent参数，可提供pageSize参数`|
                 </tr>
                 <tr>
                     | pagingAlign |
