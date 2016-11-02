@@ -3,9 +3,7 @@
 本框架内置组件及部分插件都可以通过jQuery选择器进行API调用，支持链式操作，如下示例。
 * 以下是示例展示打开一个ID为'mydialog'的弹出窗口，然后更改该选择器的值为'OK'：
 
- `API示例：`
- 
-  *本例的完整代码：*
+ `API示例完整代码：`
 ```js
 $('a.api-test').click(function() {
     $(this).dialog({id:'mydialog', url:'doc/base/mydialog.html', title:'测试弹窗'}).text('OK')
