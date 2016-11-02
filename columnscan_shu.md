@@ -16,12 +16,7 @@
 | align | string | left | [可选] 对齐方式(left、center、right)。 |
 | add | boolean | true | [可选] *`F`* 允许该列添加数据。 |
 | edit | boolean | true | [可选] *`F<`* 允许该列编辑数据。 |
-                </tr>
-                <tr>
-                    | attrs |
-                    | object |
-                    | null |
-                    | [可选] <span class="badge"><i>F</i></span> 编辑时，表单域的附加参数。示例：`{readonly:'readonly'}` |
+| attrs | object | null  | [可选] *`F`* 编辑时，表单域的附加参数。示例：`{readonly:'readonly'}` |
                 </tr>
                 <tr>
                     | rule |
