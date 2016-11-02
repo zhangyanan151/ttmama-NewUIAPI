@@ -14,48 +14,13 @@
 | dataType | string | json | [可选] 数据类型，可选参数['json' 、 'array' 、 'xml']。 |
 | hiddenFields | array | null | [可选] `仅用于dataType='array'时`隐藏字段，可以将不能加载到页面上的值设置到给定的字段，array数据除去表头的列后依次赋值。 |
 | local | string | remote | [可选] 处理数据方式，可选参数['local' 、 'remote']，(影响（分页、排序、筛选）)。 |
-                </tr>
-                <tr>
-                    | fieldSortable |
-                    | boolean |
-                    | true |
-                    | [可选] 点击页头字段快速排序。`普通表格转为datagrid的，需设置dataUrl参数，local = 'remote'` |
-                </tr>
-                <tr>
-                    | filterThead |
-                    | boolean |
-                    | true |
-                    | [可选] 允许表格头部快速筛选。`普通表格转为datagrid的，需设置dataUrl参数，local = 'remote'` |
-                </tr>
-                <tr>
-                    | sortAll |
-                    | boolean |
-                    | false |
-                    | [可选] 排序范围，true = 所有数据排序， false = 当前页数据排序。`普通表格转为datagrid的，默认为true` |
-                </tr>
-                <tr>
-                    | filterAll |
-                    | boolean |
-                    | false |
-                    | [可选] 筛选范围，true = 从所有数据中筛选，false = 从当前页数据中筛选。`普通表格转为datagrid的，默认为true` |
-                </tr>
-                <tr>
-                    | filterMult |
-                    | boolean |
-                    | true |
-                    | [可选] 支持多字段筛选。 |
-                </tr>
-                <tr>
-                    | linenumberAll |
-                    | boolean |
-                    | false |
-                    | [可选] 行号范围，true = 为所有数据编号，false = 为当前页数据编号。 |
-                </tr>
-                <tr>
-                    | showLinenumber |
-                    | boolean/string |
-                    | true |
-                    | [可选] 是否显示行号，参数[true | false | 'lock']，lock参数 = 锁定行号列（适用于多列字段，出现横向滚动条的情况）。 |
+| fieldSortable | boolean | true | [可选] 点击页头字段快速排序。`普通表格转为datagrid的，需设置dataUrl参数，local = 'remote'` |
+| filterThead | boolean | true | [可选] 允许表格头部快速筛选。`普通表格转为datagrid的，需设置dataUrl参数，local = 'remote'` |
+| sortAll | boolean | false | [可选] 排序范围，true = 所有数据排序， false = 当前页数据排序。`普通表格转为datagrid的，默认为true` |
+| filterAll | boolean | false | [可选] 筛选范围，true = 从所有数据中筛选，false = 从当前页数据中筛选。`普通表格转为datagrid的，默认为true` |
+| filterMult | boolean | true | [可选] 支持多字段筛选。 |
+| linenumberAll | boolean | false | [可选] 行号范围，true = 为所有数据编号，false = 为当前页数据编号。 |
+| showLinenumber | boolean/string | true | [可选] 是否显示行号，参数[true 、 false 、 'lock']，lock参数 = 锁定行号列（适用于多列字段，出现横向滚动条的情况）。 |
                 </tr>
                 <tr>
                     | showCheckboxcol |
