@@ -62,12 +62,4 @@ data-items="source, |, undo, redo, |, preview, print, template"
 
 }
  ```
-        <p>配置更多参数请查看Kindeditor官方文档：<a href="http://kindeditor.net/docs/index.html" target="_blank">http://kindeditor.net/docs/index.html</a>，本框架引入Kindeditor插件入口在`bjui-plugins.js`</p>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+配置更多参数请查看Kindeditor官方文档：[http://kindeditor.net/docs/index.html](http://kindeditor.net/docs/index.html)，本框架引入Kindeditor插件入口在`bjui-plugins.js`
