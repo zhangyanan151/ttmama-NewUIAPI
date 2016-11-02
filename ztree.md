@@ -1,8 +1,7 @@
 ### 第三方插件：zTree —— 树插件
 ***
-本节主要介绍jQuery树插件 - zTree，插件地址：[http://www.ztree.me/](http://www.ztree.me/)。</p>
-        </blockquote>
-        <h4>初始化</h4>
+本节主要介绍jQuery树插件 - zTree，插件地址：[http://www.ztree.me/](http://www.ztree.me/)。
+#### 初始化
         <ul>
             <li><span class="label label-default">DOM示例1：</span>ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，data属性设置要展示的JSON数据及其他参数。<br>
                 <p>示例代码：</p>
