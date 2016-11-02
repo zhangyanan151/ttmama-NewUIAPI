@@ -5,23 +5,24 @@
 * Data属性：form添加属性`data-toggle="validate"`，form内的相关input添加验证规则(`data-rule`)后，提交表单即可触发验证。
 
   `注意：仅input添加验证规则，form未添加data-toggle="validate"时，提交表单仍会验证，但验证通过后不会以ajax方式提交表单。`
-                <br><span class="label label-default">DOM示例：</span>　<a href="doc/plugin/myvalidate.html" data-toggle="dialog" data-id="myvalidate" data-title="我的验证表单页面" data-width="600" data-height="400">打开验证表单</a><br>
-                <p>示例代码：</p>
-                <pre class="brush: html">
-                    <form action="ajaxDone1.html" data-toggle="validate">
-                        <p><label class="x85">用户身份：</label><select name="role" data-rule="required" data-toggle="selectpicker">
-                                <option value=""></option>
-                                <option value="a">管理员</option>
-                                <option value="b">项目负责人</option>
-                                <option value="c">执行人</option>
-                            </select>
-                        </p>
-                        <p><label class="x85">登录名：</label><input type="text" name="username" data-rule="required" data-tip="你好啊，请填写用户名" data-ok="用户名可用" placeholder="登录名"></p>
-                        <p><label class="x85">密码：</label><input type="password" name="password" data-rule="required;" placeholder="登录密码"></p>
-                        <p><label class="x85">记住：</label><input type="checkbox" name="remember" value="true" id="doc-validate-remember" data-toggle="icheck" data-rule="checked" data-label="记住登陆信息"></p>
-                        <p><hr></p>
-                        <p><label class="x85"></label><button type="submit" class="btn-default">提 交</button></p>
-                    </form>
+**`DOM示例代码：`**
+```html
+<form action="ajaxDone1.html" data-toggle="validate">
+    <p><label class="x85">用户身份：</label><select name="role" data-rule="required" data-toggle="selectpicker">
+            <option value=""></option>
+            <option value="a">管理员</option>
+            <option value="b">项目负责人</option>
+            <option value="c">执行人</option>
+        </select>
+    </p>
+    <p><label class="x85">登录名：</label><input type="text" name="username" data-rule="required" data-tip="你好啊，请填写用户名" data-ok="用户名可用" placeholder="登录名"></p>
+    <p><label class="x85">密码：</label><input type="password" name="password" data-rule="required;" placeholder="登录密码"></p>
+    <p><label class="x85">记住：</label><input type="checkbox" name="remember" value="true" id="doc-validate-remember" data-toggle="icheck" data-rule="checked" data-label="记住登陆信息"></p>
+    <p><hr></p>
+    <p><label class="x85"></label><button type="submit" class="btn-default">提 交</button></p>
+</form>
+```
+                    
                 </pre>
             </li>
             <li>jQuery API：无</li>
