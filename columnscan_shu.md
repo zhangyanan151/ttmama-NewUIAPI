@@ -123,7 +123,7 @@
     </tr>
 </thead>
 ```
-                    
+* HTML多表头
                 </pre>
             </div>
             <div class="tab-pane fade" id="datagrid-columns-demo3">
