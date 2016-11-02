@@ -22,13 +22,9 @@
     <p><label class="x85"></label><button type="submit" class="btn-default">提 交</button></p>
 </form>
 ```
-                    
-                </pre>
-            </li>
-            <li>jQuery API：无</li>
-        </ul>
-        <blockquote class="point">
-            <p>默认表单未通过验证时会弹出alertmsg错误字段数提示，若要取消alertmsg请在form中添加属性`data-alertmsg="false"`</p>
+* jQuery API：无
+
+**注意：**默认表单未通过验证时会弹出alertmsg错误字段数提示，若要取消alertmsg请在form中添加属性`data-alertmsg="false"`</p>
         </blockquote>
         <h4>字段验证DOM参数</h4>
         <blockquote class="point">
