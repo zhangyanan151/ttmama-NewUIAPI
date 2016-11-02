@@ -1,6 +1,6 @@
 ### 标签工作区(navtab)
 ***
-* B-JUI框架的整个工作区部分就是一个navtab组件，本组件位于主页面的"`#bjui-container`"容器内，固定的html结构如下：
+B-JUI框架的整个工作区部分就是一个navtab组件，本组件位于主页面的"`#bjui-container`"容器内，固定的html结构如下：
  ```html
 <div id="bjui-navtab" class="tabsPage">
     <div class="tabsPageHeader">
