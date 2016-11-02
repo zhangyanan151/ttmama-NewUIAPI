@@ -2,11 +2,16 @@
 ***
 本框架内置组件的事件基本上都是jQuery自定义事件。
 * 监听事件
-      $(selector).on('Event name', function(e) {
-          //do something...
-      })
+```js
+$(selector).on('Event name', function(e) {
+    //do something...
+})
+```
 * 触发事件
-      $(selector).trigger('Event name')
+```js
+$(selector).trigger('Event name')
+```
+
 #### 全局事件
 
 | 事件名称 | 中文说明 | 描述 |
@@ -27,21 +32,22 @@
 `事件示例：`
 
 *示例完整代码：*
-
-    <script type="text/javascript">
-        var $doc_div = $('&lt;div class="doc-eventbox" style="display:inline-block; margin-left:10px;"><input type="text"></div>')
-        $doc_div.on('bjui.initUI', function() {
-            $(this).find('input').css('border-color','red')
-        })
-        $('a.doc-event-1').click(function() {
-            $doc_div.insertAfter('a.doc-event-2')
-            $('a.doc-event-2').removeClass('hide')
-            $(this).hide()
-        })
-        $('a.doc-event-2').click(function() {
-            $(this).hide()
-            $doc_div.trigger('bjui.initUI')
-        })
-    </script>
-    <a href="javascript:;" class="btn btn-default doc-event-1">创建div容器</a>
-    <a href="javascript:;" class="btn btn-default hide doc-event-2">触发bjui.initUI事件</a>
+```js
+var $doc_div = $('&lt;div class="doc-eventbox" style="display:inline-block; margin-left:10px;"><input type="text"></div>')
+$doc_div.on('bjui.initUI', function() {
+    $(this).find('input').css('border-color','red')
+})
+$('a.doc-event-1').click(function() {
+    $doc_div.insertAfter('a.doc-event-2')
+    $('a.doc-event-2').removeClass('hide')
+    $(this).hide()
+})
+$('a.doc-event-2').click(function() {
+    $(this).hide()
+    $doc_div.trigger('bjui.initUI')
+})
+```
+```html
+<a href="javascript:;" class="btn btn-default doc-event-1">创建div容器</a>
+<a href="javascript:;" class="btn btn-default hide doc-event-2">触发bjui.initUI事件</a>
+```
