@@ -1,6 +1,6 @@
 ### 横向导航菜单(hnav)
 ***
-* 本节介绍B-JUI框架的横向导航菜单，html结构如下：
+本节介绍B-JUI框架的横向导航菜单，html结构如下：
 ```html
 <div id="bjui-hnav">
     <button type="button" class="bjui-hnav-toggle btn-default" data-toggle="collapse" data-target="#bjui-hnav-navbar">
