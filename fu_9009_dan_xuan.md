@@ -4,12 +4,11 @@
 #### 初始化
 * Data属性：checkbox或radio添加属性`data-toggle="icheck"`后即可触发，属性`data-label`可以设置显示标签，如果有ID，则点击标签可勾选。<br>
 **`DOM示例：代码：`**
-                <pre class="brush: html">
-                    <input type="checkbox" name="doc-check1" id="doc-check1" data-toggle="icheck" data-label="我是一个复选框">
-                    <input type="radio" name="doc-radio1" id="doc-radio1" data-toggle="icheck" data-label="单选1">
-                    <input type="radio" name="doc-radio1" id="doc-radio2" data-toggle="icheck" data-label="单选2">
-                </pre>
-            </li>
+```html
+<input type="checkbox" name="doc-check1" id="doc-check1" data-toggle="icheck" data-label="我是一个复选框">
+<input type="radio" name="doc-radio1" id="doc-radio1" data-toggle="icheck" data-label="单选1">
+<input type="radio" name="doc-radio1" id="doc-radio2" data-toggle="icheck" data-label="单选2">
+```
             <li>jQuery API：<a href="http://www.bootcss.com/p/icheck/" target="_blank">http://www.bootcss.com/p/icheck/</a></li>
         </ul>
         <h4>状态改变事件</h4>
