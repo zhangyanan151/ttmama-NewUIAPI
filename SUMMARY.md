@@ -26,7 +26,7 @@
    * [自动完成标签](框架组件/zi_dong_wan_cheng_biao_qian.md)
    * [Ajax上传组件](框架组件/ajaxshang_chuan_zu_jian.md)
    * [右键菜单](框架组件/you_jian_cai_dan.md)
-* Ajax
+* [Ajax](ajax.md)
    * [回调函数](hui_diao_han_shu.md)
    * [提交表单](ti_jiao_biao_dan.md)
    * [搜索表单](sou_suo_biao_dan.md)
