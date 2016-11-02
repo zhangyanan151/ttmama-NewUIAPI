@@ -16,18 +16,3 @@
 | 名称 | 类型 | 默认值 | 描述 |
 | -- | -- | -- | -- |
 | url | string | null | [必选] 图表JSON数据调用地址 |
-                    <td>url</td>
-                    <td>string</td>
-                    <td>null</td>
-                    <td>[必选] 图表JSON数据调用地址</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
