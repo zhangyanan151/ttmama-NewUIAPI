@@ -78,12 +78,4 @@
 | jumpPage(pageNum, [pageSize]) | int, int | 跳转页码(仅设置分页大小参数时，可设为null)，[可选参数，页大小] | 跳转到指定页码。 |
 | destroy() | -- | -- | 销毁datagrid。 |
 #### 取得选中行
-        <blockquote class="point">$('table - selector').data('selectedTrs')</blockquote>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+    $('table - selector').data('selectedTrs')</blockquote>
