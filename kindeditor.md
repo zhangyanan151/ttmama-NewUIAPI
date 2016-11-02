@@ -9,6 +9,8 @@
 ```
 * jQuery API：[http://kindeditor.net/docs/index.html](http://kindeditor.net/docs/index.html)
 #### 参数（options）`basePath`为kindeditor插件目录
+
+| 名称 | 类型 | 默认值 | 描述 |
         <table class="table table-bordered table-striped table-hover">
             <thead>
                 <tr>
