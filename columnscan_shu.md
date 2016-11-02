@@ -28,48 +28,44 @@
 | menu | boolean | true | [可选] *`F<`* 列上是否出现菜单按钮（对于多表头，仅对字段列有效）。 |
 | lock | boolean | false | [可选] *`F`* 是否锁定该列(尽量不用，影响速度)。 |
 | quicksort | boolean | true | [可选] *`F<`* 允许点击该列进行快速排序。 |
-                </tr>
-            </tbody>
-        </table>
-        
-
-<h4>示例代码</h4>
+#### 示例代码
         <ul class="nav nav-tabs" role="tablist" style="margin:0;">
-            <li class="active"><a href="#datagrid-columns-demo1" role="tab" data-toggle="tab">简单列模型</a></li>
+            <li class="active"><a href="#datagrid-columns-demo1" role="tab" data-toggle="tab"></a></li>
             <li><a href="#datagrid-columns-demo2" role="tab" data-toggle="tab">多表头模型</a></li>
             <li><a href="#datagrid-columns-demo3" role="tab" data-toggle="tab">HTML简单表头</a></li>
             <li><a href="#datagrid-columns-demo4" role="tab" data-toggle="tab">HTML多表头</a></li>
         </ul>
-        <div class="tab-content">
-            <div class="tab-pane fade active in" id="datagrid-columns-demo1">
-                <pre class="brush: js; html-script: true">
-                    [
-                        {
-                            name: 'operation',
-                            label: '类型',
-                            type : 'select',
-                            items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
-                            align: 'center',
-                            width: 80,
-                            render: $.datagrid.renderItem
-                        },
-                        {
-                            name: 'name',
-                            label: '姓名',
-                            align: 'center',
-                            width: 100,
-                            rule: 'required'
-                        },
-                        {
-                            name: 'sex',
-                            label: '性别',
-                            type: 'select',
-                            items: [{'true':'男'}, {'false':'女'}],
-                            align: 'center',
-                            width: 40,
-                            render: $.datagrid.renderItem
-                        }
-                    ]
+* 简单列模型
+```js
+[
+      {
+          name: 'operation',
+          label: '类型',
+          type : 'select',
+          items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
+          align: 'center',
+          width: 80,
+          render: $.datagrid.renderItem
+      },
+      {
+          name: 'name',
+          label: '姓名',
+          align: 'center',
+          width: 100,
+          rule: 'required'
+      },
+      {
+          name: 'sex',
+          label: '性别',
+          type: 'select',
+          items: [{'true':'男'}, {'false':'女'}],
+          align: 'center',
+          width: 40,
+          render: $.datagrid.renderItem
+      }
+  ]
+```
+                    
                 </pre>
             </div>
             <div class="tab-pane fade" id="datagrid-columns-demo2">
