@@ -15,7 +15,7 @@
 | pasteType | int | 2 | [可选] 粘贴类型，0:禁止粘贴, 1:纯文本粘贴, 2:HTML粘贴。 |
 | minHeight | int | 260 | [可选] 编辑器的高度。 |
 | autoHeightMode | boolean | false | [可选] 编辑器是否可以自动调整高度。 |
-| items | string |:[^本表底部查看]| [可选] 编辑器的工具栏显示图标，多个图标名称以`,`分隔，全部工具见：[http://kindeditor.net/docs/option.html#items](http://kindeditor.net/docs/option.html#items)。 |
+| items | string |:[^本表底部查看1]| [可选] 编辑器的工具栏显示图标，多个图标名称以`,`分隔，全部工具见：[http://kindeditor.net/docs/option.html#items](http://kindeditor.net/docs/option.html#items)。 |
 | uploadJson | string | basePath + 'php/upload_json.php' | [可选] 编辑器上传文件的服务器端程序。 |
 | fileManagerJson | string | basePath + 'php/file_manager_json.php' | [可选] 指定浏览远程图片的服务器端程序。 |
 | allowFileManager | boolean | true | [可选] 上传时是否显示浏览远程服务器按钮。 |
@@ -27,7 +27,7 @@
                 </tr>
             </tbody>
         </table>
-        [^a]:
+        [^本表底部查看1]:
         ```js
         [
                                 'source', '|', 'undo', 'redo', '|', 'preview', 'print', 'template', 'code', 'cut', 'copy', 'paste',
