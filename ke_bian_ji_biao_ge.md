@@ -51,12 +51,23 @@
 | action | string | null | [可选] 点完成或保存按钮后处理数据的服务端url。 |
 | type | string | POST | [可选] 提交数据的方式。 |
 | singleNoindex | boolean | false | [可选] 提交单行数据时，下标的index为0。 |
-| callback | function(json) | :[^在页底脚注查看] | [可选] 回调函数。 |
+| callback | function(json) | :[^本表底部查看] | [可选] 回调函数。 |
 | idname | string | id | `适用于 thead -> tr`[可选] 定义行数据的主键名称（id的name）。 |
 | id | string | null | `适用于 tbody -> tr`[可选] 定义行数据的主键值（id的值）。 |
 | addtool | boolean | false | `适用于 thead -> th`[可选] 表头列显示添加行控件。 |
 | val | int | null | `适用于 tbody -> td`[可选] 对应表头定义input的值（如：radio/checkbox/select/上传控件）。 |
 | notread | boolean | false | `适用于 tbody -> td`[可选] 设定本单元格的元素没有只读状态（如：功能按钮）。 |
+
+[^参数callback的默认值如下]：
+ ```js
+function(json) {
+    if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
+        _doRead($tr)
+    } else {
+        $tr.bjuiajax('ajaxDone', json)
+    }
+}
+```
 ***
 #### 关于添加可编辑行
 ##### 初始化
@@ -79,16 +90,6 @@ $(selector).tabledit('add', target, num)
 | num | int | 1 | [可选] 每次添加的行数。 |
 
 
-[^参数callback的默认值如下]：
- ```js
-function(json) {
-    if (json[BJUI.keys.statusCode] == BJUI.statusCode.ok) {
-        _doRead($tr)
-    } else {
-        $tr.bjuiajax('ajaxDone', json)
-    }
-}
-```
 
 
 
