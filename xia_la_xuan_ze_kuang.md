@@ -12,5 +12,6 @@
 </select>
 ```
 * jQuery API：[http://silviomoreto.github.io/bootstrap-select/](http://silviomoreto.github.io/bootstrap-select/)
+
 #### 事件
-* 无
+  * 无
