@@ -1,13 +1,10 @@
-<div class="bjui-pageContent">
-    <div class="bjui-doc">
-        <h3 class="page-header">第三方插件：表单验证</h3>
-        <blockquote>
-            <p>本节主要介绍表单验证插件 - nice Validaor，插件官网：<a href="http://niceue.com/validator/" target="_blank">http://niceue.com/validator/</a>。</p>
-        </blockquote>
-        <h4>初始化</h4>
-        <ul>
-            <li>Data属性：form添加属性`data-toggle="validate"`，form内的相关input添加验证规则(`data-rule`)后，提交表单即可触发验证。<br>
-                `注意：仅input添加验证规则，form未添加data-toggle="validate"时，提交表单仍会验证，但验证通过后不会以ajax方式提交表单。`
+### 第三方插件：表单验证
+***
+本节主要介绍表单验证插件 - nice Validaor，插件官网：[http://niceue.com/validator/](http://niceue.com/validator/)。
+### 初始化
+* Data属性：form添加属性`data-toggle="validate"`，form内的相关input添加验证规则(`data-rule`)后，提交表单即可触发验证。
+
+  `注意：仅input添加验证规则，form未添加data-toggle="validate"时，提交表单仍会验证，但验证通过后不会以ajax方式提交表单。`
                 <br><span class="label label-default">DOM示例：</span>　<a href="doc/plugin/myvalidate.html" data-toggle="dialog" data-id="myvalidate" data-title="我的验证表单页面" data-width="600" data-height="400">打开验证表单</a><br>
                 <p>示例代码：</p>
                 <pre class="brush: html">
