@@ -124,38 +124,20 @@
 </thead>
 ```
 * HTML多表头
-                </pre>
-            </div>
-            <div class="tab-pane fade" id="datagrid-columns-demo3">
-                <pre class="brush: html">
-                    
-                </pre>
-            </div>
-            <div class="tab-pane fade" id="datagrid-columns-demo4">
-                <pre class="brush: html">
-                    <thead>
-                        <tr>
-                            <th rowspan="2" data-options="{name:'operation',
-                                items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
-                                render: $.datagrid.renderItem, type:'select'}">类型</th>
-                            <th rowspan="2" data-options="{name:'name'}">姓名</th>
-                            <th colspan="2">拼音姓名</th>
-                            <th rowspan="2" data-options="{name:'sex', items: [{'true':'男'}, {'false':'女'}],
-                                render: $.datagrid.renderItem, type:'select'}">性别</th>
-                        </tr>
-                        <tr>
-                            <th data-options="{name:'firstname'}">拼音姓</th>
-                            <th data-options="{name:'lastname'}">拼音名</th>
-                        </tr>
-                    </thead>
-                </pre>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="bjui-pageFooter">
-    <ul>
-        <li><button type="button" class="btn-close" data-icon="close">关闭</button></li>
-    </ul>
-</div>
-
+```js
+<thead>
+    <tr>
+        <th rowspan="2" data-options="{name:'operation',
+            items: [{'01':'神话'}, {'02':'传说'}, {'03':'漫画'}, {'04':'历史'}, {'05':'其他'}],
+            render: $.datagrid.renderItem, type:'select'}">类型</th>
+        <th rowspan="2" data-options="{name:'name'}">姓名</th>
+        <th colspan="2">拼音姓名</th>
+        <th rowspan="2" data-options="{name:'sex', items: [{'true':'男'}, {'false':'女'}],
+            render: $.datagrid.renderItem, type:'select'}">性别</th>
+    </tr>
+    <tr>
+        <th data-options="{name:'firstname'}">拼音姓</th>
+        <th data-options="{name:'lastname'}">拼音名</th>
+    </tr>
+</thead>
+```
