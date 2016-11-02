@@ -30,7 +30,7 @@
 </thead>
 ```
 * jQuery API：
-```javascript
+```js
 $(th).tablefixed('setOrder', options)
 ```
 #### 参数（options）
