@@ -1,9 +1,7 @@
 ### <ECharts图表说明
 ***
 本节主要介绍框架的ECharts图形报表功能（由 [小策一喋](http://www.topjui.com) 整合图表库ECharts），Demo演示只展示了3种常用的图形报表：饼图、柱状/拆线图及地图，其它图表类型请根据ECharts图表库使用方法生成对应的json数据格式即可，更多图表类型及参数请查看[ECharts官网](http://echarts.baidu.com)
-        </blockquote>
-        <blockquote class="point">
-            `界面调用：`在HTML代码中加入代码：<br>
+**`界面调用：`**在HTML代码中加入代码
             <pre class="brush: html">
                 <div style="mini-width:400px;height:350px" data-toggle="echarts" data-type="pie,funnel" data-theme="blue" data-url="echarts-barData.html"></div>
             </pre>
