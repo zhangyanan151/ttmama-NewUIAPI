@@ -64,21 +64,9 @@
 | 方法名 | 参数类型 | 参数说明 | 描述 |
 | -- | -- | -- | -- |
 | showLinenumber(flag) | boolean/string | true or false， 'lock' or 'unlock' | 行号列：显示、隐藏、锁定、解除锁定。 |
-| showCheckboxcol(flag) | boolean/string |
-                    | true or false， 'lock' or 'unlock' |
-                    | 复选框列：显示、隐藏、锁定、解除锁定。 |
-                </tr>
-                <tr>
-                    | showEditCol(tabids) |
-                    | boolean |
-                    | true | false |
-                    | 编辑按钮列：显示、隐藏。 |
-                </tr>
-                <tr>
-                    | showhideColumn(column, showFlag) |
-                    | object/int, boolean |
-                    | column = 列索引或字段列的jQuery对象，showFlag = true/false |
-                    | 显示、隐藏某列。 |
+| showCheckboxcol(flag) | boolean/string | true or false， 'lock' or 'unlock' | 复选框列：显示、隐藏、锁定、解除锁定。 |
+| showEditCol(tabids) | boolean | true or false | 编辑按钮列：显示、隐藏。 |
+| showhideColumn(column, showFlag) | object/int, boolean | column = 列索引或字段列的jQuery对象，showFlag = true/false | 显示、隐藏某列。 |
                 </tr>
                 <tr>
                     | selectedRows(rows, [selected]) |
