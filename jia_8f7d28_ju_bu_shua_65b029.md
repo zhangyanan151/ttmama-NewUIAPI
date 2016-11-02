@@ -23,15 +23,15 @@
 * jQuery API：
 
 **加载：**
-```javascript
+```js
 $(selector).bjuiajax('doLoad', options)
 ```
 **刷新：**
-```javascript
+```js
 $(selector).bjuiajax('refreshLayout', options)
 ```
 **刷新指定ID的div容器`多个id以** , **分隔`：**
-```javascript
+```js
 $(selector).bjuiajax('refreshDiv', divid)
 ```
 #### 参数（options）
