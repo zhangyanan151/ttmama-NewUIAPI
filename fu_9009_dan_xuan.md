@@ -13,6 +13,7 @@
 
 #### 状态改变事件
 更多事件及方法见插件官网
+
 **`示例代码：`**
 ```js
 $('input[name="doc-check-t"]').on('ifChanged', function(e) {
