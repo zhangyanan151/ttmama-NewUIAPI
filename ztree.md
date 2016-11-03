@@ -34,6 +34,7 @@ function ztree_returnjson() {
 ```html
 <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:'ztree_returnjson'}"></ul>
 ```
+
 #### DOM初始化的zTree参数
 * 推荐使用集合属性`data-options`定义参数，如果使用`data属性`定义参数，注意转换成对应的名称，参见[data属性]()一节。
 
