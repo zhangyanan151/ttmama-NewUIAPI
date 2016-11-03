@@ -23,7 +23,8 @@
   
 #### 初始化
 * Data属性：div添加属性`data-toggle="pagination"`，添加`Class[ pagination-box ]`。
-*DOM示例代码*：`分页组件默认右浮动，若要左浮动需添加Class[ pull-left ]`
+
+  *DOM示例代码*：`分页组件默认右浮动，若要左浮动需添加Class[ pull-left ]`
 ```html
 <div class="pagination-box" data-toggle="pagination" data-total="10" data-page-size="5" data-page-current="1"></div>
 ```
