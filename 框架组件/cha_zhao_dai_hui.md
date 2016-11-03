@@ -21,10 +21,9 @@ $('lookupbtn').data('newurl', 'new url')                            //直接修�
 <label>查找名称：</label><input type="text" name="t2.name" size="10"> <a href="doc/form/mylookup.html" data-toggle="lookupbtn" data-group="t2">打开Lookup窗口</a>
 ```
 * jQuery API：
-
-  ```js
-  $(input).lookup(options)
-  ```
+```js
+$(input).lookup(options)
+```
   
 #### 参数（options）
 
@@ -46,7 +45,6 @@ $('lookupbtn').data('newurl', 'new url')                            //直接修�
 | -- | -- | -- |
 | afterchange.bjui.lookup | 带回值后的事件 | 监听该事件，可以在input取得返回值后进行相关操作。 |
 * 这样监听lookup的事件：`mylookup - selector`表示lookup赋值了的input选择器
-
 ```js
 $('mylookup - selector').on('afterchange.bjui.lookup', function(e, data) {
     var myvalue = data.value
