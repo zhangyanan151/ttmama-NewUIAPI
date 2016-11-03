@@ -39,7 +39,7 @@
    * [行选中操作](xing_xuan_zhong_cao_zuo.md)
    * [固定表头](guding_biao_tou_md.md)
    * [可编辑表格](ke_bian_ji_biao_ge.md)
-* DataGrid
+* [DataGrid](datagrid.md)
    * [datagrid示例](datagridshi_li.md)
    * [datagrid参数](datagridcan_shu.md)
    * [columns参数](columnscan_shu.md)
