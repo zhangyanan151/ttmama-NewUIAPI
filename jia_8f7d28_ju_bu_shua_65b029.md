@@ -22,7 +22,7 @@
 ```
 * jQuery API：
 
-**加载：**
+  **加载：**
 ```js
 $(selector).bjuiajax('doLoad', options)
 ```
@@ -34,6 +34,7 @@ $(selector).bjuiajax('refreshLayout', options)
 ```js
 $(selector).bjuiajax('refreshDiv', divid)
 ```
+
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
