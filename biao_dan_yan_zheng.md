@@ -48,15 +48,16 @@
 
 | 规则 | 描述  | 示例代码 |
 | -- | -- | -- |
-| required | 必填项| <code><input type="text" name="doc-validate1" data-rule="required"></code> |
-| 显示替换名:required | 显示替换名 + 必填项提示消息 | <code><input type="text" name="doc-validate2" data-rule="用户名:required;"></code> |
-| match[name] | 两个字段匹配 | <code><input type="text" name="doc-validate-p1" size="5" data-rule="密码:required"></code> <br /><code><input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)"></code> |
-| digits | 整数 | <code><input type="text" name="doc-validate-d1" size="10" data-rule="digits"></code> |
-| number | 数字 | <code><input type="text" name="doc-validate-d2" size="10" data-rule="number"></code> |
-| mobile | 手机号 | <code><input type="text" name="doc-validate-m1" size="10" data-rule="mobile"></code> |
-| email | 邮箱 | <code><input type="text" name="doc-validate-m2" size="10" data-rule="email"></code> |
-| date | 日期 | <code><input type="text" name="doc-validate-d3" size="10" data-rule="date"></code> |
-| datetime | 日期时间 | <code><input type="text" name="doc-validate-d4" size="10" data-rule="datetime"></code> |
-| url | 网址 | <code><input type="text" name="doc-validate-u" size="10" data-rule="url"></code> |
-| ID_card | 身份证 | <code><input type="text" name="doc-validate-id" size="10" data-rule="ID_card"></code> |
-| checked  | 复选\单选框 | <code><input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框"></code><br /><code><input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框"></code> |
+| required | 必填项| `<input type="text" name="doc-validate1" data-rule="required">` |
+| 显示替换名:required | 显示替换名 + 必填项提示消息 | `<input type="text" name="doc-validate2" data-rule="用户名:required;">` |
+| match[name] | 两个字段匹配 | `<input type="text" name="doc-validate-p1" size="5" data-rule="密码:required">` <br />`<input type="text" name="doc-validate-p2" size="5" data-rule="确认密码:required;match(doc-validate-p1)">` |
+| digits | 整数 | `<input type="text" name="doc-validate-d1" size="10" data-rule="digits">` |
+| number | 数字 | `<input type="text" name="doc-validate-d2" size="10" data-rule="number">` |
+| mobile | 手机号 | `<input type="text" name="doc-validate-m1" size="10" data-rule="mobile">` |
+| email | 邮箱 | `<input type="text" name="doc-validate-m2" size="10" data-rule="email">` |
+| date | 日期 | `<input type="text" name="doc-validate-d3" size="10" data-rule="date">` |
+| datetime | 日期时间 | `<input type="text" name="doc-validate-d4" size="10" data-rule="datetime">` |
+| url | 网址 | `<input type="text" name="doc-validate-u" size="10" data-rule="url">` |
+| ID_card | 身份证 | `<input type="text" name="doc-validate-id" size="10" data-rule="ID_card">` |
+| checked  | 复选\单选框 | `<input type="checkbox" name="doc-validate-cc1" id="doc-validate-cc1" data-rule="checked" data-toggle="icheck" data-label="复选框">`<br />`<input type="radio" name="doc-validate-cc2" id="doc-validate-cc2-1" data-rule="checked" data-toggle="icheck" data-label="单选框">` |
+
