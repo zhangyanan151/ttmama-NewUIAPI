@@ -4,16 +4,16 @@
 #### 初始化
 * Data属性：input添加属性`data-toggle="datepicker"`。
 
-*示例代码：*
+  *示例代码：*
 
-```html
-<input type="text" data-toggle="datepicker">
-```
+  ```html
+  <input type="text" data-toggle="datepicker">
+  ```
 * jQuery API：`options为空时，默认初始化为当前日期`
 
-```js
-$(input).datepicker(options)
-```
+  ```js
+  $(input).datepicker(options)
+  ```
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
