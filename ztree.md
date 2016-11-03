@@ -15,6 +15,7 @@
 <ul id="ztree-test-demo2" class="ztree" data-toggle="ztree" data-options="{nodes:[{id:1,pid:0,name:'表单元素',faicon:'rss',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]}"></ul>
 ```
 **`DOM示例3：`**ul添加id, 添加class`(ztree)`和属性`data-toggle="ztree"`后即可触发，使用li元素定义要展示的数据。
+
 *示例代码：*
 ```html
 <ul id="ztree-test-demo3" class="ztree" data-toggle="ztree">
