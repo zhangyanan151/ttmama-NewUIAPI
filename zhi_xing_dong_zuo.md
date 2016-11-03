@@ -4,7 +4,8 @@
 
   `DOM示例：`
 * **doAjax(适用于 `删除` 等)**：
-*DOM示例代码：*
+
+  *DOM示例代码：*
 ```html
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doajax" data-confirm-msg="确定要删除吗？">删除动作</a>
 ```
@@ -23,7 +24,8 @@ jQuery API:
 $(selector).bjuiajax('doExport', options)
 ```
 * **doAjaxChecked(适用于 `选中项删除` 等)**：
-*DOM示例代码：*
+
+  *DOM示例代码：*
 ```html
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doajaxchecked" data-group="delids" data-confirm-msg="确定要删除选中项吗？">批量删除动作</a>
 ```
@@ -32,7 +34,8 @@ jQuery API:
 $(selector).bjuiajax('doAjaxChecked', options)
 ```
 * **doExportChecked(适用于 `选中项导出`)**：
-*DOM示例代码：*
+
+  *DOM示例代码：*
 ```html
 <a type="button" class="btn btn-default" href="ajaxDone3.html" data-toggle="doexportchecked" data-confirm-msg="确定要导出选中项吗？">批量导出</a>
  ```
