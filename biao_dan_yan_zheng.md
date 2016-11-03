@@ -5,7 +5,8 @@
 * Data属性：form添加属性`data-toggle="validate"`，form内的相关input添加验证规则(`data-rule`)后，提交表单即可触发验证。
 
   `注意：仅input添加验证规则，form未添加data-toggle="validate"时，提交表单仍会验证，但验证通过后不会以ajax方式提交表单。`
-**`DOM示例代码：`**
+  
+  **`DOM示例代码：`**
 ```html
 <form action="ajaxDone1.html" data-toggle="validate">
     <p><label class="x85">用户身份：</label><select name="role" data-rule="required" data-toggle="selectpicker">
