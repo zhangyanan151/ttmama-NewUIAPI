@@ -10,6 +10,7 @@
 <input type="radio" name="doc-radio1" id="doc-radio2" data-toggle="icheck" data-label="单选2">
 ```
 * jQuery API：[http://www.bootcss.com/p/icheck/](http://www.bootcss.com/p/icheck/)
+
 #### 状态改变事件
 更多事件及方法见插件官网
 **`示例代码：`**
