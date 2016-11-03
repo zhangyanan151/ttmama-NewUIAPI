@@ -3,6 +3,7 @@
 本框架内置组件及部分插件都可以通过data属性来初始化并使用，通常通过data-toggle来调用API。如无特殊说明，相关参数也通过data属性传递。
 
 * data属性无法向JS传递含有大写字母的参数，如果参数是驼峰格式(大小写混搭)，则需将大写字母转换为`-`加小写。如：
+
   `reloadWarn` --> `data-reload-warn`
   
   `maxAddLevel` --> `data-max-add-level`
