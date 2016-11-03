@@ -25,7 +25,7 @@
 ```
 * jQuery API：无
 
-  **注意：**默认表单未通过验证时会弹出alertmsg错误字段数提示，若要取消alertmsg请在form中添加属性`data-alertmsg="false"`
+**注意：**默认表单未通过验证时会弹出alertmsg错误字段数提示，若要取消alertmsg请在form中添加属性`data-alertmsg="false"`
   
 #### 字段验证DOM参数
 * 以下参数仅限于DOM传参，js传参请到插件官网查看。
