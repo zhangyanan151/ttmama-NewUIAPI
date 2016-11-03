@@ -22,6 +22,7 @@ function doc_filedownload1(a) {
 <a href="Book1.xlsx" onclick="doc_filedownload1(this); return false;">点我下载一个文件</a>
 ```
 **`下载失败：`**
+
 *示例代码：*
 ```js
 function doc_filedownload1(a) {
