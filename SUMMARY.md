@@ -32,7 +32,7 @@
    * [搜索表单](sou_suo_biao_dan.md)
    * [加载(局部刷新)](jia_8f7d28_ju_bu_shua_65b029.md)
    * [执行动作](zhi_xing_dong_zuo.md)
-* 表格相关
+* [表格相关](biao_ge_xiang_guan.md)
    * [表格样式](biao_ge_yang_shi.md)
    * [字段排序](zi_duan_pai_xu.md)
    * [分页组件](fen_ye_zu_jian.md)
