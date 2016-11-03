@@ -22,9 +22,10 @@ $('lookupbtn').data('newurl', 'new url')                            //直接修�
 ```
 * jQuery API：
 
-```js
-$(input).lookup(options)
-```
+  ```js
+  $(input).lookup(options)
+  ```
+  
 #### 参数（options）
 
 | 名称 | 类型 | 默认值 | 描述 |
