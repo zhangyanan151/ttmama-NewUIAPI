@@ -10,16 +10,12 @@ $('lookupbtn').data('newurl', 'new url')                            //直接修�
 #### 初始化
 * Data属性：input添加属性`data-toggle="lookup"` 或 点击含有属性`data-toggle="lookupbtn"`的元素触发。
 
-  *`DOM示例1：`*
-  
-  示例代码：
+  *DOM示例代码1：*
 ```html
 <label>PID:</label><input type="text" name="pid" size="5">
 <label>查找名称：</label><input type="text" data-toggle="lookup" data-url="doc/form/mylookup.html" name="name" size="10">
 ```
-*`DOM示例2：`*
-
-  示例代码：
+*DOM示例代码2：*
 ```html
 <label>PID:</label><input type="text" name="t2.pid" size="5">
 <label>查找名称：</label><input type="text" name="t2.name" size="10"> <a href="doc/form/mylookup.html" data-toggle="lookupbtn" data-group="t2">打开Lookup窗口</a>
