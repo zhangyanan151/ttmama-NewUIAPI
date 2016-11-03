@@ -43,7 +43,7 @@
    * [datagrid示例](datagridshi_li.md)
    * [datagrid参数](datagridcan_shu.md)
    * [columns参数](columnscan_shu.md)
-* 图表报文
+* [图表报文](tu_biao_bao_wen.md)
    * [HighCharts图表](highchartstu_biao.md)
    * [ECharts图表](echartstu_biao.md)
 * [引用的其他插件](yin_yong_de_qi_ta_cha_jian.md)
