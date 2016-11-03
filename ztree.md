@@ -25,7 +25,7 @@
 ```
 jQuery API：[http://www.ztree.me/v3/api.php](http://www.ztree.me/v3/api.php)
 ***
-* 考虑到nodes定义的JSON数据写到HTML中可能会破坏DOM结构， nodes参数支持定义为方法名，该方法返回需要的JSON数据。例：
+考虑到nodes定义的JSON数据写到HTML中可能会破坏DOM结构， nodes参数支持定义为方法名，该方法返回需要的JSON数据。例：
 ```js
 function ztree_returnjson() {
     return [{id:1,pid:0,name:'表单元素',children:[{id:10,pId:1,name:'按钮'},{id:11,pId:1,name:'文本框'}]}]
