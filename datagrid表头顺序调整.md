@@ -115,6 +115,6 @@ function doc_dialog_onLoad($dialog) {
 #### 效果图如下
 
 ![](/assets/20161104150942.png)
-*
+
 拖动左侧按钮调整表头顺序，勾选选项控制列的显示和隐藏。
 
