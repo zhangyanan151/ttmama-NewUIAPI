@@ -1,7 +1,11 @@
 ### datagrid表头顺序调整及列隐藏
-***
+
+---
+
 本节介绍datagrid表头顺序的调整及列的显示隐藏。
+
 #### 示例代码
+
 * HTML中在datagrid的table中添加按钮
 
 ```html
@@ -13,6 +17,7 @@
      </div>
  </table>
 ```
+
 * HTML中添加弹出框代码
 
 ```html
@@ -25,6 +30,7 @@
  </div>
 </div>
 ```
+
 * 引入Sortable.js
 * 添加JS代码
 
@@ -107,6 +113,8 @@ function doc_dialog_onLoad($dialog) {
 ```
 
 #### 效果图如下
-![](/assets/20161104150942.png)
 
+![](/assets/20161104150942.png)
+*
 拖动左侧按钮调整表头顺序，勾选选项控制列的显示和隐藏。
+
