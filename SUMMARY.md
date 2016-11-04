@@ -54,4 +54,5 @@
     * [KindEditor](kindeditor.md)
     * [Ajax Download](ajax_download.md)
 * [新增功能介绍](新增功能介绍.md)
+    * [datagrid表头顺序调整](datagrid表头顺序调整.md)
 
