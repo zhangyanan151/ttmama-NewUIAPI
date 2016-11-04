@@ -11,5 +11,5 @@
 | table-striped | 条纹状表格\(IE8 不支持\) |
 | table-hover | 支持鼠标悬停颜色 |
 | table-condensed | 若未添加本class，框架默认单元格高度\(30px\) |
-| table-top | 表格的顶边线宽为0 | 
+| table-top | 表格的顶边线宽为0 |
 
