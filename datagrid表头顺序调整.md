@@ -7,7 +7,7 @@
 ```html
  <table id="test-datagrid" data-width="100%" data-height="500" class="table table-bordered">
      <div class="datagrid-make-btn">
-         <button type="button" data-target="#doc-dialog-target" class="dropdown-toggle" data-            toggle="dialog" data-width="320" data-height=" 460" data-id="dialog-table-head" data-mask="true" data-title="配置列表项" data-maxable="false" data-minable="false" data-resizable="true" data-on-load="doc_dialog_onLoad" data-fresh="true">
+         <button type="button" data-target="#doc-dialog-target" class="dropdown-toggle" data-toggle="dialog" data-width="320" data-height=" 460" data-id="dialog-table-head" data-mask="true" data-title="配置列表项" data-maxable="false" data-minable="false" data-resizable="true" data-on-load="doc_dialog_onLoad" data-fresh="true">
              <i class="fa fa-cog"></i>
          </button>
      </div>
@@ -105,3 +105,7 @@ function doc_dialog_onLoad($dialog) {
  }
 
 ```
+
+#### 效果图如下
+![](/assets/20161104150942.png)
+拖动左侧按钮调整表头顺序，勾选选项控制列的显示和隐藏。
