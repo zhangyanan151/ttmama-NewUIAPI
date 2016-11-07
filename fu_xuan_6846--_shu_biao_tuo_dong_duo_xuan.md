@@ -5,8 +5,8 @@
 * 在当前模块的td元素下增加一个遮罩层
 ```js
 (function addSpan(){
-      var span = $("<span class='zz'></span>");
-      $(".table-checkbox-td").append(span);
+    var span = $("<span class='zz'></span>");
+    $(".table-checkbox-td").append(span);
 })();
 ```
 
