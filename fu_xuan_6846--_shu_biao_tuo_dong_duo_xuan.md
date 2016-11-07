@@ -12,6 +12,7 @@
 })();
 ```
 ```css
+/* td元素和新增的遮罩样式需要稍微设置 */
 .table-checkbox-td {
     position: relative;
 }
