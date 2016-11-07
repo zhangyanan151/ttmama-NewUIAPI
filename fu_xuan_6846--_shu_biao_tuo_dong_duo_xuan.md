@@ -13,6 +13,30 @@
 ```
 
 #### 鼠标按下和拖拽事件
+```js
+$("#bjui-navtab").delegate(".table-checkbox-td .zz","mousedown",function(ev){
+    $("#bjui-navtab").css("-webkit-user-select","none");
+    //样式（toggleClass）与实质(toggleiCheck)的一致
+    $(this).prev(".icheckbox_minimal-purple").toggleClass("checked").children("input").iCheck('toggle');
+    $(this).on("mouseup",function(){
+        $(".table-checkbox-td .zz").off("mouseenter");
+        return;
+    });
+    //（鼠标按下后，）鼠标经过时批量选中或取消选中，跟随第一个的选择
+    var isCheck = $(this).prev(".icheckbox_minimal-purple").hasClass("checked");
+    $(".table-checkbox-td .zz").on("mouseenter",function(){
+        if(isCheck){
+            $(this).prev(".icheckbox_minimal-purple").addClass("checked").children("input").iCheck('check');
+        }else {
+            $(this).prev(".icheckbox_minimal-purple").removeClass("checked").children("input").iCheck('uncheck');
+        }
+
+        $(window).on("mouseup",function(){
+            $(".table-checkbox-td .zz").off("mouseenter");
+        });
+    });
+});
+```
 
 
 
