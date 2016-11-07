@@ -12,17 +12,17 @@
 })();
 ```
 ```css
-    .table-checkbox-td {
-        position: relative;
-    }
-    .zz {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-    }
+.table-checkbox-td {
+    position: relative;
+}
+.zz {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
 ```
 
 #### 鼠标按下和拖拽事件
