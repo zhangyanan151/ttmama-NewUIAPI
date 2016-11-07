@@ -54,6 +54,7 @@ $("#bjui-navtab").delegate(".table-checkbox-td .zz","mousedown",function(ev){
 ```
 
 #### 示例效果如下
+![](/assets/checkbox_select.png)
 
 
 
