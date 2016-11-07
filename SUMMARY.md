@@ -48,7 +48,7 @@
    * [ECharts图表](echartstu_biao.md)
 * [引用的其他插件](yinyong_de_qi_ta_cha_jian_md.md)
    * [zTree](ztree.md)
-   * [复选\/单选](fu_9009_dan_xuan.md)
+   * [复选 / 单选](fu_9009_dan_xuan.md)
    * [下拉选择框](xia_la_xuan_ze_kuang.md)
    * [表单验证](biao_dan_yan_zheng.md)
    * [KindEditor](kindeditor.md)
