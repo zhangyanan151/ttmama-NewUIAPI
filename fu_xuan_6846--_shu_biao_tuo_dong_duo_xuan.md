@@ -13,8 +13,7 @@
 ```
 
 #### 鼠标按下和拖拽事件
-* 
-**`示例代码`**
+* **`示例代码`**
 ```js
 $("#bjui-navtab").delegate(".table-checkbox-td .zz","mousedown",function(ev){
     $("#bjui-navtab").css("-webkit-user-select","none");
